@@ -1,9 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:500,200);
-body, p, div, span, a, h1, h2, h3, h4, h5 {
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,100|Montserrat:700);
+body, p, div, span, a, h3, h4, h5 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 200; }
+  font-weight: 100; }
 
-h1, h2, h3, h4, h5 {
+h1, h2 {
+  font-family: 'Montserrat', 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h3, h4, h5 {
   font-weight: 500; }
 
 html, body {
@@ -13,7 +18,13 @@ html, body {
   padding: 0; }
 
 body {
-  background: #ecf0f1;
+  background: -moz-radial-gradient(center, circle cover, #fff 0%, #ecf0f1 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #fff), color-stop(100%, #ecf0f1));
+  background: -webkit-radial-gradient(center, circle cover, #fff 0%, #ecf0f1 100%);
+  background: -o-radial-gradient(center, circle cover, #fff 0%, #ecf0f1 100%);
+  background: -ms-radial-gradient(center, circle cover, #fff 0%, #ecf0f1 100%);
+  background: radial-gradient(center, circle cover, #fff 0%, #ecf0f1 100%);
+  background-color: #fff;
   color: #34495e;
   text-align: center; }
 
@@ -26,7 +37,8 @@ a {
   color: #34495e; }
 
 section.header h1 {
-  font-size: 42px; }
+  font-size: 42px;
+  -webkit-animation-duration: 3s; }
 section.mission p {
   font-size: 36px; }
 section.presence {

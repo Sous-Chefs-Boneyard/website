@@ -1,13 +1,20 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:500,200);
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,100|Montserrat:700);
 
 @import "colors";
+@import "mixins";
 
-body, p, div, span, a, h1, h2, h3, h4, h5 {
+body, p, div, span, a, h3, h4, h5 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 200;
+  font-weight: 100;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2 {
+  font-family: 'Montserrat', 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h3, h4, h5 {
   font-weight: 500;
 }
 
@@ -20,7 +27,7 @@ html, body {
 }
 
 body {
-  background: $clouds;
+  @include radial-gradient(#fff, $clouds);
   color: $wet-asphalt;
   text-align: center;
 }
