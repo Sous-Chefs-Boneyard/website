@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-  width: 600px;
+  max-width: 600px;
   margin: 75px auto auto auto;
 }
 
@@ -63,6 +63,7 @@ section {
       width: 300px;
       padding: 10px;
       transition: all 0.3s;
+      flex: 0 1 auto;
 
       h3, p {
         margin: 0;
