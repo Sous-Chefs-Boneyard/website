@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,200);
+body, p, div, span, a, h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: 500; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #ecf0f1;
+  color: #34495e;
+  text-align: center; }
+
+.container {
+  width: 600px;
+  margin: 75px auto auto auto; }
+
+a {
+  text-decoration: none;
+  color: #34495e; }
+
+section.header h1 {
+  font-size: 42px; }
+section.mission p {
+  font-size: 36px; }
+section.presence {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap; }
+  section.presence .location {
+    width: 300px;
+    padding: 10px;
+    transition: all 0.3s; }
+    section.presence .location h3, section.presence .location p {
+      margin: 0; }
+    section.presence .location h3 {
+      color: #2c3e50; }
+    section.presence .location p {
+      color: #95a5a6;
+      margin-bottom: 10px; }
+    section.presence .location img.icon {
+      height: 128px;
+      width: 128px; }
+    section.presence .location:hover {
+      background: #f5f7f7; }
+
+/*# sourceMappingURL=style.css.map */
