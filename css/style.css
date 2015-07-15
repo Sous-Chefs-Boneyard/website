@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:500,100|Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:500,100|Montserrat:700);
 body, p, div, span, a, h3, h4, h5 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100; }
@@ -37,8 +37,7 @@ a {
   color: #34495e; }
 
 section.header h1 {
-  font-size: 42px;
-  -webkit-animation-duration: 3s; }
+  font-size: 42px; }
 section.mission p {
   font-size: 36px; }
 section.presence {
