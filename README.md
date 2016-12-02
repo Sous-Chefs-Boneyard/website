@@ -1,1 +1,1 @@
-# chef-brigade.github.io
+# sous-chefs.github.io
