@@ -1,10 +1,3 @@
-+++
-date = "2017-05-02T21:11:15+01:00"
-draft = true
-title = "repository setup"
-
-+++
-
 # Repository Layout
 
 - Master is always protected.
@@ -15,4 +8,4 @@ title = "repository setup"
 
 # Example
 
-![Repo Layout](images/branch_protection.png)
+![Repo Layout](branch_protection.png)

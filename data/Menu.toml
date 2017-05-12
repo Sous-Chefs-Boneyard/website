@@ -1,13 +1,35 @@
-[about]
-    Name = "About"
-    URL = "/about"
+[code-of-conduct]
+  Name = "Code of Conduct"
+  URL = "code-of-conduct"
 
-[posts]
-    Name = "Posts"
-    Title = "Show list of posts"
-    URL = "/post"
+[become-a-member]
+  Name = "Become a member"
+  URL = "becoming-a-member"
 
-[tags]
-    Name = "Tags"
-    Title = "Show list of tags"
-    URL = "/tags"
+[membership]
+  Name = "Membership"
+  URL = "membership"
+
+[contributing]
+  Name = "Contributing"
+  URL = "contributing"
+
+[cookbooks]
+  Name = "Coobkooks"
+  URL = "cookbooks"
+
+[repository-setup]
+  Name = "Repository Setup"
+  URL = "repository-setup"
+
+[transferring]
+  Name = "Transferring"
+  URL = "transferring"
+
+[licenses]
+  Name = "Licenses"
+  URL = "licenses"
+
+[departure]
+  Name = "Departure"
+  URL = "departure"

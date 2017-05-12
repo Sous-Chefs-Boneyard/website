@@ -1,10 +1,3 @@
-+++
-date = "2017-05-02T21:11:28+01:00"
-draft = true
-title = "cookbooks"
-
-+++
-
 # Transferring a Cookbook to the Sous Chefs
 
 Got a cookbook you'd like help with? We'd love to help!

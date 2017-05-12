@@ -1,10 +1,3 @@
-+++
-date = "2017-05-02T21:23:02+01:00"
-draft = true
-title = "licenses"
-
-+++
-
 # Licenses
 
 ## Table of Contents
