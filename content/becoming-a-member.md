@@ -1,10 +1,3 @@
-+++
-date = "2017-05-02T21:10:17+01:00"
-draft = true
-title = "becoming a member"
-
-+++
-
 # Becoming a Member
 
 Join us on the [Chef community slack](https://chefcommunity.slack.com/messages/sous-chefs/), say hi then;
