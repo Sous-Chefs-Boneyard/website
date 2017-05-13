@@ -1,0 +1,35 @@
+[code-of-conduct]
+  Name = "Code of Conduct"
+  URL = "code-of-conduct"
+
+[become-a-member]
+  Name = "Become a member"
+  URL = "becoming-a-member"
+
+[membership]
+  Name = "Membership"
+  URL = "membership"
+
+[contributing]
+  Name = "Contributing"
+  URL = "contributing"
+
+[cookbooks]
+  Name = "Coobkooks"
+  URL = "cookbooks"
+
+[repository-setup]
+  Name = "Repository Setup"
+  URL = "repository-setup"
+
+[transferring]
+  Name = "Transferring"
+  URL = "transferring"
+
+[licenses]
+  Name = "Licenses"
+  URL = "licenses"
+
+[departure]
+  Name = "Departure"
+  URL = "departure"
