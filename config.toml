@@ -1,22 +1,8 @@
-baseURL = "http://sous-chefs.org"
+baseURL = "sous-chefs.org"
 languageCode = "en-us"
 title = "Sous Chefs"
 publishDir = "docs" 
-
 theme = "hyde-y"
-# hostname (and path) to the root eg. http://spf13.com/
-baseurl = "http://www.sous-chefs.org"
-
-# Metadata format
-# "yaml", "toml", "json"
-metaDataFormat = "yaml"
-
-# Pagination
-paginate = 10
-paginatePath = "page"
-
-# Enable Disqus integration
-# disqusShortname = "your_disqus_shortname"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -29,17 +15,12 @@ paginatePath = "page"
 [author]
     name = "Sous Chefs"
 
-#
-# All parameters below here are optional and can be mixed and matched.
-#
 [params]
     # You can use markdown here.
     brand = "Sous Chefs"
     topline = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
     footline = "code with <i class='fa fa-heart'></i>"
 
-    # Sidebar position
-    # false, true, "left", "right"
     sidebar = "left"
 
     home = "home"
