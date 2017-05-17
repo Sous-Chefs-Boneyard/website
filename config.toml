@@ -1,4 +1,4 @@
-baseURL = "sous-chefs.org"
+baseURL = "http://sous-chefs.org/"
 languageCode = "en-us"
 title = "Sous Chefs"
 publishDir = "docs" 
