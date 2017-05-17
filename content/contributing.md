@@ -23,7 +23,7 @@ We don't require you to use GitHub, and we will even take patch diffs attached t
 
 ## Functional and Unit Tests
 
-This cookbook is set up to run tests under [Test Kitchen](http://kitchen.ci/). It uses serverspec to run integration tests after the node has been converged to verify that the state of the node.
+Our cookbooks are set up to run tests under [Test Kitchen](http://kitchen.ci/). They use InSpec to run integration tests after the nodes have converged to verify that the system state..
 
 Test kitchen should run completely without exception using the default [baseboxes provided by Chef](http://chef.github.io/bento/). Because Test Kitchen creates VirtualBox machines and runs through every configuration in the .kitchen.yml file, it may take some time for these tests to complete.
 
