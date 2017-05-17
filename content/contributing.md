@@ -4,7 +4,7 @@ We are glad you want to contribute to a sous-chefs cookbook! The first step is t
 
 ## Quick-contribute
 
-- Create an issue on the github issue tracker (see `issues_url` in the cookbook's `metadata.rb`)
+- Create an issue on the GitHub issue tracker (see `issues_url` in the cookbook's `metadata.rb`)
 - Link to your patch as a rebased git branch or pull request from the ticket
 
 We regularly review contributions and will get back to you if we have any suggestions or concerns.
@@ -17,9 +17,9 @@ It is a best practice to have your commit message have a _summary line_, followe
 
 Remember that not all users use Chef in the same way or on the same operating systems as you, so it is helpful to be clear about your use case and change so they can understand it even when it doesn't apply to them.
 
-### Github and Pull Requests
+### GitHub and Pull Requests
 
-We don't require you to use Github, and we will even take patch diffs attached to tickets on the issue tracker. However Github has a lot of convenient features, such as being able to see a diff of changes between a pull request and the main repository quickly without downloading the branch.
+We don't require you to use GitHub, and we will even take patch diffs attached to tickets on the issue tracker. However GitHub has a lot of convenient features, such as being able to see a diff of changes between a pull request and the main repository quickly without downloading the branch.
 
 ## Functional and Unit Tests
 
