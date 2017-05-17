@@ -21,17 +21,13 @@ Remember that not all users use Chef in the same way or on the same operating sy
 
 We don't require you to use GitHub, and we will even take patch diffs attached to tickets on the issue tracker. However GitHub has a lot of convenient features, such as being able to see a diff of changes between a pull request and the main repository quickly without downloading the branch.
 
-## Functional and Unit Tests
+## Cookbook Testing
 
-Our cookbooks are set up to run tests under [Test Kitchen](http://kitchen.ci/). They use InSpec to run integration tests after the nodes have converged to verify that the system state..
+Each Sous Chefs cookbook is setup for both local testing and testing within Travis CI. We utilize Cookstyle, Foodcritic, and [Test Kitchen](http://kitchen.ci/) for complete cookbook testing. On a local workstation Test Kitchen will run via kitchen-vagrant against VirtualBox systems, while within Travis CI we utilize kitchen-dokken to test in Docker containers.
 
-Test kitchen should run completely without exception using the default [baseboxes provided by Chef](http://chef.github.io/bento/). Because Test Kitchen creates VirtualBox machines and runs through every configuration in the .kitchen.yml file, it may take some time for these tests to complete.
+Prior to submitting your change you should run all tests. Linting (Cookstyle/Foodcritic) and Unit (ChefSpec) tests can be run by running `delivery local all`. Test kitchen tests can be run by running `kitchen test`. Test Kitchen tests may take quite some time to complete depending on the level of coverage and systems involved. You may want to run `kitchen list` and test against a sub-set of a total suites.
 
-If your changes are only for a specific recipe, run only its configuration with Test Kitchen. If you are adding a new recipe, or other functionality such as a LWRP or definition, please add appropriate tests and ensure they run with Test Kitchen.
-
-If any don't pass, investigate them before submitting your patch.
-
-Any new feature should have unit tests included with the patch with good code coverage to help protect it from future changes. Similarly, patches that fix a bug or regression should have a _regression test_. Simply put, this is a test that would fail without your patch but passes with it. The goal is to ensure this bug doesn't regress in the future. Consider a regular expression that doesn't match a certain pattern that it should, so you provide a patch and a test to ensure that the part of the code that uses this regular expression works as expected. Later another contributor may modify this regular expression in a way that breaks your use cases. The test you wrote will fail, signaling to them to research your ticket and use case and accounting for it.
+Any new functionality should include additional testing to protect against future regressions. Similarly, patches that fix a bug or regression should have a _regression test_. Simply put, this is a test that would fail without your patch but passes with it. The goal is to ensure this bug doesn't regress in the future. Consider a regular expression that doesn't match a certain pattern that it should, so you provide a patch and a test to ensure that the part of the code that uses this regular expression works as expected. Later another contributor may modify this regular expression in a way that breaks your use cases. The test you wrote will fail, signaling to them to research your ticket and use case and accounting for it.
 
 If you need help writing tests, please ask on the [Community Slack](https://community-slack.chef.io/)
 
