@@ -1,6 +1,7 @@
 baseURL = "http://sous-chefs.org"
 languageCode = "en-us"
 title = "Sous Chefs"
+publishDir = "docs" 
 
 theme = "hyde-y"
 # hostname (and path) to the root eg. http://spf13.com/
