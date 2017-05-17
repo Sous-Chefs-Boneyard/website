@@ -39,7 +39,7 @@ Be kind to others. Do not insult or put down other community members. Behave pro
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://sous-chefs.org/contributing/</guid>
-      <description>Contributing to the apache2 cookbook We are glad you want to contribute to a sous-chefs cookbook! The first step is the desire to improve the project.
+      <description>Contributing to Sous-Chefs We are glad you want to contribute to a sous-chefs cookbook! The first step is the desire to improve the project.
 Quick-contribute  Create an issue on the github issue tracker (see issues_url in the cookbook&amp;rsquo;s metadata.rb) Link to your patch as a rebased git branch or pull request from the ticket  We regularly review contributions and will get back to you if we have any suggestions or concerns.</description>
     </item>
     
@@ -70,7 +70,9 @@ When the cookbook is for end-of-life tech If a cookbook is for software that&amp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://sous-chefs.org/licenses/</guid>
-      <description>Licenses Table of Contents  Software License  Apache License LICENSE file Apache License Header Apache License in the README  Documentation License  Creative Commons Attribution 4.0 International LICENSE File Creative Commons Attribution 4.0 International Icon   Software License The preferred software license to publish the work of Sous Chefs is Apache License. All published work must be under an Open Source Software license.
+      <description>Licenses Table of Contents  Software License
+ Apache License LICENSE file Apache License Header Apache License in the README  Documentation License
+ Creative Commons Attribution 4.0 International LICENSE File Creative Commons Attribution 4.0 International Icon   Software License The preferred software license to publish the work of Sous Chefs is Apache License. All published work must be under an Open Source Software license.
 You can see the different licenses available here: http://choosealicense.</description>
     </item>
     
