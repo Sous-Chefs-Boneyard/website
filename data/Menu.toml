@@ -14,10 +14,6 @@
   Name = "Contributing"
   URL = "contributing"
 
-[cookbooks]
-  Name = "Cookbooks"
-  URL = "cookbooks"
-
 [repository-setup]
   Name = "Repository Setup"
   URL = "repository-setup"
