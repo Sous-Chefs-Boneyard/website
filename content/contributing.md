@@ -43,7 +43,7 @@ Not all platforms that a cookbook supports may be supported by Test Kitchen. Ple
 
 Please do indicate new platform (families) or platform versions in the commit message, and update the relevant ticket. If a contribution adds new platforms or platform versions, indicate such in the body of the commit message(s).
 
-Please do use [foodcritic](http://www.foodcritic.io/) to lint-check the cookbook. Except FC007, it should pass all correctness rules. FC007 is okay as long as the dependent cookbooks are _required_ for the default behavior of the cookbook, such as to support an uncommon platform, secondary recipe, etc.
+Please do use [Foodcritic](http://www.foodcritic.io/) and [Cookstyle](https://github.com/chef/cookstyle) to lint-check the cookbook, both of which are found in ChefDK.
 
 Please do ensure that your changes do not break or modify behavior for other platforms supported by the cookbook. For example if your changes are for Debian, make sure that they do not break on CentOS.
 
