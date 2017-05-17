@@ -1,4 +1,5 @@
 # Code of Conduct
+
 Sous Chefs are dedicated to providing a harassment-free cookbook experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of Sous Chefs participants in any form.
 
 All communication should be appropriate for a professional audience including people of many different backgrounds.

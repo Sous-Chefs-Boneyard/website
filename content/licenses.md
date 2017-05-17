@@ -3,28 +3,31 @@
 ## Table of Contents
 
 - [Software License](#software-license)
-  - [Apache License *LICENSE* file](#apache-license-license-file)
+
+  - [Apache License _LICENSE_ file](#apache-license-license-file)
   - [Apache License Header](#apache-license-header)
-  - [Apache License in the *README*](#apache-license-in-the-readme)
+  - [Apache License in the _README_](#apache-license-in-the-readme)
+
 - [Documentation License](#documentation-license)
-  - [Creative Commons Attribution 4.0 International *LICENSE* File](#creative-commons-attribution-40-international-license-file)
+
+  - [Creative Commons Attribution 4.0 International _LICENSE_ File](#creative-commons-attribution-40-international-license-file)
   - [Creative Commons Attribution 4.0 International Icon](#creative-commons-attribution-40-international-icon)
 
 ## Software License
 
 The preferred software license to publish the work of Sous Chefs is [Apache License](http://www.apache.org/licenses/LICENSE-2.0). All published work **must be** under an **Open Source Software license**.
 
-You can see the different licenses available here: http://choosealicense.com/
+You can see the different licenses available here: <http://choosealicense.com/>
 
 How to add the [Apache License](http://www.apache.org/licenses/LICENSE-2.0) to a project:
 
-- [The repositories **must have** a *LICENSE* file with the license.](#apache-license-license-file)
+- [The repositories **must have** a _LICENSE_ file with the license.](#apache-license-license-file)
 - [The source code files should have the license in the header.](#apache-license-header)
-- [The *README* file should have the license at the bottom.](#apache-license-in-the-readme)
+- [The _README_ file should have the license at the bottom.](#apache-license-in-the-readme)
 
-### Apache License *LICENSE* file
+### Apache License _LICENSE_ file
 
-Put the license in a file called *LICENSE* in the root of the repository:
+Put the license in a file called _LICENSE_ in the root of the repository:
 
 ```
                                  Apache License
@@ -33,7 +36,7 @@ Put the license in a file called *LICENSE* in the root of the repository:
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-   1. Definitions.
+   1\. Definitions.
 
       "License" shall mean the terms and conditions for use, reproduction,
       and distribution as defined by Sections 1 through 9 of this document.
@@ -92,14 +95,14 @@ Put the license in a file called *LICENSE* in the root of the repository:
       on behalf of whom a Contribution has been received by Licensor and
       subsequently incorporated within the Work.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
+   2\. Grant of Copyright License. Subject to the terms and conditions of
       this License, each Contributor hereby grants to You a perpetual,
       worldwide, non-exclusive, no-charge, royalty-free, irrevocable
       copyright license to reproduce, prepare Derivative Works of,
       publicly display, publicly perform, sublicense, and distribute the
       Work and such Derivative Works in Source or Object form.
 
-   3. Grant of Patent License. Subject to the terms and conditions of
+   3\. Grant of Patent License. Subject to the terms and conditions of
       this License, each Contributor hereby grants to You a perpetual,
       worldwide, non-exclusive, no-charge, royalty-free, irrevocable
       (except as stated in this section) patent license to make, have made,
@@ -115,7 +118,7 @@ Put the license in a file called *LICENSE* in the root of the repository:
       granted to You under this License for that Work shall terminate
       as of the date such litigation is filed.
 
-   4. Redistribution. You may reproduce and distribute copies of the
+   4\. Redistribution. You may reproduce and distribute copies of the
       Work or Derivative Works thereof in any medium, with or without
       modifications, and in Source or Object form, provided that You
       meet the following conditions:
@@ -156,7 +159,7 @@ Put the license in a file called *LICENSE* in the root of the repository:
       reproduction, and distribution of the Work otherwise complies with
       the conditions stated in this License.
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
+   5\. Submission of Contributions. Unless You explicitly state otherwise,
       any Contribution intentionally submitted for inclusion in the Work
       by You to the Licensor shall be under the terms and conditions of
       this License, without any additional terms or conditions.
@@ -164,12 +167,12 @@ Put the license in a file called *LICENSE* in the root of the repository:
       the terms of any separate license agreement you may have executed
       with Licensor regarding such Contributions.
 
-   6. Trademarks. This License does not grant permission to use the trade
+   6\. Trademarks. This License does not grant permission to use the trade
       names, trademarks, service marks, or product names of the Licensor,
       except as required for reasonable and customary use in describing the
       origin of the Work and reproducing the content of the NOTICE file.
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
+   7\. Disclaimer of Warranty. Unless required by applicable law or
       agreed to in writing, Licensor provides the Work (and each
       Contributor provides its Contributions) on an "AS IS" BASIS,
       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
@@ -179,7 +182,7 @@ Put the license in a file called *LICENSE* in the root of the repository:
       appropriateness of using or redistributing the Work and assume any
       risks associated with Your exercise of permissions under this License.
 
-   8. Limitation of Liability. In no event and under no legal theory,
+   8\. Limitation of Liability. In no event and under no legal theory,
       whether in tort (including negligence), contract, or otherwise,
       unless required by applicable law (such as deliberate and grossly
       negligent acts) or agreed to in writing, shall any Contributor be
@@ -191,7 +194,7 @@ Put the license in a file called *LICENSE* in the root of the repository:
       other commercial damages or losses), even if such Contributor
       has been advised of the possibility of such damages.
 
-   9. Accepting Warranty or Additional Liability. While redistributing
+   9\. Accepting Warranty or Additional Liability. While redistributing
       the Work or Derivative Works thereof, You may choose to offer,
       and charge a fee for, acceptance of support, warranty, indemnity,
       or other liability obligations and/or rights consistent with this
@@ -250,9 +253,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Apache License in the *README*
+### Apache License in the _README_
 
-The *README* file should have the license at the bottom. For example:
+The _README_ file should have the license at the bottom. For example:
 
 ```
 # License and Author
@@ -281,18 +284,18 @@ The *README* file should have the license at the bottom. For example:
 
 The preferred license for documentation published by Sous Chefs is [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/). All documentation published **must be** under a [Creative Commons](http://creativecommons.org/) license.
 
-You can see the different licenses available here: http://creativecommons.org/choose/
+You can see the different licenses available here: <http://creativecommons.org/choose/>
 
 How to add the [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/) license to a project:
 
-- [The documentation repositories **must have** a *LICENSE* file with the license.](#creative-commons-attribution-40-International-license-file)
+- [The documentation repositories **must have** a _LICENSE_ file with the license.](#creative-commons-attribution-40-International-license-file)
 - [The documentation files should have an icon with the license at the bottom.](#creative-commons-attribution-40-international-icon)
 
-### Creative Commons Attribution 4.0 International *LICENSE* File
+### Creative Commons Attribution 4.0 International _LICENSE_ File
 
-Put the license in a file called *LICENSE* in the root of the repository.
+Put the license in a file called _LICENSE_ in the root of the repository.
 
-Get the license from here: http://creativecommons.org/licenses/by/4.0/legalcode.txt
+Get the license from here: <http://creativecommons.org/licenses/by/4.0/legalcode.txt>
 
 ### Creative Commons Attribution 4.0 International Icon
 
@@ -303,5 +306,5 @@ You should put this at the bottom of each documentation file:
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 ```
 
---
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+-- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)<br>
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
