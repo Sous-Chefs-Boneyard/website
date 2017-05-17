@@ -33,11 +33,11 @@ If any don't pass, investigate them before submitting your patch.
 
 Any new feature should have unit tests included with the patch with good code coverage to help protect it from future changes. Similarly, patches that fix a bug or regression should have a _regression test_. Simply put, this is a test that would fail without your patch but passes with it. The goal is to ensure this bug doesn't regress in the future. Consider a regular expression that doesn't match a certain pattern that it should, so you provide a patch and a test to ensure that the part of the code that uses this regular expression works as expected. Later another contributor may modify this regular expression in a way that breaks your use cases. The test you wrote will fail, signalling to them to research your ticket and use case and accounting for it.
 
-If you need help writing tests, please ask on the Chef Developer's mailing list, or <https://community-slack.chef.io/>
+If you need help writing tests, please ask on the [Community Slack](https://community-slack.chef.io/)
 
 ## Cookbook Contribution Do's and Don't's
 
-Please do include tests for your contribution. If you need help, ask on the [chef-dev mailing list](http://lists.chef.io/sympa/info/chef-dev) or the <https://community-slack.chef.io/>
+Please do include tests for your contribution. If you need help, ask on the [Community Slack](https://community-slack.chef.io/)
 
 Not all platforms that a cookbook supports may be supported by Test Kitchen. Please provide evidence of testing your contribution if it isn't trivial so we don't have to duplicate effort in testing. Chef 10.14+ "doc" formatted output is sufficient.
 
