@@ -40,7 +40,7 @@ Be kind to others. Do not insult or put down other community members. Behave pro
       
       <guid>http://sous-chefs.org/contributing/</guid>
       <description>Contributing to Sous-Chefs We are glad you want to contribute to a sous-chefs cookbook! The first step is the desire to improve the project.
-Quick-contribute  Create an issue on the github issue tracker (see issues_url in the cookbook&amp;rsquo;s metadata.rb) Link to your patch as a rebased git branch or pull request from the ticket  We regularly review contributions and will get back to you if we have any suggestions or concerns.</description>
+Quick-contribute  Create an issue on the GitHub issue tracker (see issues_url in the cookbook&amp;rsquo;s metadata.rb) Link to your patch as a rebased git branch or pull request from the ticket  We regularly review contributions and will get back to you if we have any suggestions or concerns.</description>
     </item>
     
     <item>
@@ -94,7 +94,7 @@ The board reserves the authority to do any lawful act necessary to operate the c
       
       <guid>http://sous-chefs.org/transferring/</guid>
       <description>Transferring a Cookbook to the Sous Chefs Got a cookbook you&amp;rsquo;d like help with? We&amp;rsquo;d love to help!
-Before you begin We need to work with the github repo owner and supermarket cookbook owner. If you aren&amp;rsquo;t this person, let us know and we&amp;rsquo;ll try to contact them. If necessary, fine beverages and chocolate chip cookies may be provided to encourage them to work with us.
+Before you begin We need to work with the GitHub repo owner and supermarket cookbook owner. If you aren&amp;rsquo;t this person, let us know and we&amp;rsquo;ll try to contact them. If necessary, fine beverages and chocolate chip cookies may be provided to encourage them to work with us.
 When this is not possible please see forking</description>
     </item>
     

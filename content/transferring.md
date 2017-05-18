@@ -4,7 +4,7 @@ Got a cookbook you'd like help with? We'd love to help!
 
 ## Before you begin
 
-We need to work with the github repo owner and supermarket cookbook owner. If you aren't this person, let us know and we'll try to contact them. If necessary, fine beverages and chocolate chip cookies may be provided to encourage them to work with us.
+We need to work with the GitHub repo owner and supermarket cookbook owner. If you aren't this person, let us know and we'll try to contact them. If necessary, fine beverages and chocolate chip cookies may be provided to encourage them to work with us.
 
 When this is not possible please see [forking](https://github.com/sous-chefs/meta/blob/master/forking.md)
 
@@ -16,7 +16,7 @@ You'll need:
 
 ## Joining Sous-Chefs
 
-In order to transfer a cookbook into the sous-chefs organization on Github you must first become a member of the organization. A member of the Sous-Chefs board and assist with sending an invite to the organization.
+In order to transfer a cookbook into the sous-chefs organization on GitHub you must first become a member of the organization. A member of the Sous-Chefs board and assist with sending an invite to the organization.
 
 ## Transferring the code
 
@@ -49,11 +49,11 @@ This is adapted from "[How to extract a single file with its history from a git 
 - Add the GitHub repo as a remote `git remote add sous-chefs https://github.com/sous-chefs/${name}.git`
 - Push `git push sous-chefs --all` and `git push sous-chefs --tags`
 
-## Have the proper Github user rights setup
+## Have the proper GitHub user rights setup
 
 Once the cookbook has been transferred a Sous-Chefs board member can setup the proper permissions for the repo
 
-- Add a new Github team with the same name as the cookbook
+- Add a new GitHub team with the same name as the cookbook
 - Add maintainers to that group
 - Add that team to the repo with **Admin** privileges
 
@@ -67,7 +67,7 @@ Once the cookbook has been transferred a Sous-Chefs board member can setup the p
 
 In case it isn't already, rename the repo to `https://github.com/sous-chefs/${name}.git`
 
-- From the repo page on Github click **Settings**
+- From the repo page on GitHub click **Settings**
 - Under **Repository name** enter a new name and click **Rename**
 
 ## Cleanup links to the old home
