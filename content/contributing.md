@@ -23,7 +23,7 @@ We don't require you to use GitHub, and we will even take patch diffs attached t
 
 ## Cookbook Testing
 
-Each Sous Chefs cookbook is setup for both local testing and testing within Travis CI. We utilize Cookstyle, Foodcritic, and [Test Kitchen](http://kitchen.ci/) for complete cookbook testing. On a local workstation Test Kitchen will run via kitchen-vagrant against VirtualBox systems, while within Travis CI we utilize kitchen-dokken to test in Docker containers.
+Each Sous Chefs cookbook is setup for both local testing and testing within Travis CI. We utilize [Cookstyle](https://github.com/chef/cookstyle), [Foodcritic](http://www.foodcritic.io/), and [Test Kitchen](http://kitchen.ci/) for complete cookbook testing. On a local workstation Test Kitchen will run via kitchen-vagrant against VirtualBox systems, while within Travis CI we utilize kitchen-dokken to test in Docker containers.
 
 Prior to submitting your change you should run all tests. Linting (Cookstyle/Foodcritic) and Unit (ChefSpec) tests can be run by running `delivery local all`. Test kitchen tests can be run by running `kitchen test`. Test Kitchen tests may take quite some time to complete depending on the level of coverage and systems involved. You may want to run `kitchen list` and test against a sub-set of a total suites.
 
