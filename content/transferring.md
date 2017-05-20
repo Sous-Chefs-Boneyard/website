@@ -6,7 +6,7 @@ Got a cookbook you'd like help with? We'd love to help!
 
 We need to work with the GitHub repo owner and supermarket cookbook owner. If you aren't this person, let us know and we'll try to contact them. If necessary, fine beverages and chocolate chip cookies may be provided to encourage them to work with us.
 
-When this is not possible please see [forking](https://github.com/sous-chefs/meta/blob/master/forking.md)
+When this is not possible please see [forking](https://github.com/sous-chefs/meta/blob/master/docs/forking.md)
 
 You'll need:
 
@@ -16,7 +16,7 @@ You'll need:
 
 ## Joining Sous-Chefs
 
-In order to transfer a cookbook into the sous-chefs organization on GitHub you must first become a member of the organization. A member of the Sous-Chefs board and assist with sending an invite to the organization.
+In order to transfer a cookbook into the sous-chefs organization on GitHub you must first become a member of the organization. See [becoming a member](/becoming-a-member/) for information on how to do this yourself.
 
 ## Transferring the code
 
@@ -57,6 +57,8 @@ Once the cookbook has been transferred a Sous-Chefs board member can setup the p
 - Add maintainers to that group
 - Add that team to the repo with **Admin** privileges
 
+Alternatively you can start this process yourself by sending a pull request to <https://github.com/sous-chefs/terraform-github-org>
+
 ## Transferring the cookbook in Supermarket
 
 - From the cookbook's page in Supermarket click **Manage Cookbook** and select **Transfer Ownership**
@@ -74,11 +76,12 @@ In case it isn't already, rename the repo to `https://github.com/sous-chefs/${na
 
 There are probably many references to the old URLs out there in the world. Some places to check
 
-- Update the `README.md` with a link to the current repo and supermarket page - In `metadata.rb`:
+- Update the `README.md` with a link to the current repo and supermarket page
+- In `metadata.rb`:
 
-  ```ruby
-  source_url "https://github.com/sous-chefs/#{name}"
-  issues_url "https://github.com/sous-chefs/#{name}/issues"
-  maintainer 'Sous Chefs'
-  maintainer_email 'help@sous-chefs.org'
-  ```
+    ```ruby
+    source_url "https://github.com/sous-chefs/#{name}"
+    issues_url "https://github.com/sous-chefs/#{name}/issues"
+    maintainer 'Sous Chefs'
+    maintainer_email 'help@sous-chefs.org'
+    ```

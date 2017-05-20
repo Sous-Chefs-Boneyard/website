@@ -4,7 +4,7 @@ Sous Chefs are dedicated to providing a harassment-free cookbook experience for 
 
 All communication should be appropriate for a professional audience including people of many different backgrounds.
 
-Be kind to others. Do not insult or put down other community members. Behave professionally. Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for Sous Chef.
+Be kind to others. Do not insult or put down other community members. Behave professionally. Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for Sous Chefs.
 
 Members violating these rules may be asked to leave the organization at the sole discretion of The Sous Chefs board.
 
