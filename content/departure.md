@@ -16,7 +16,7 @@ If someone objects to the project moving and wants to continue maintenance under
 
 Otherwise we update the cookbook `README.md` to mark as relocated, at least pointing where the cookbook went.
 
-## Achiving
+## Archiving
 
 Regardless of how a project leaves the Sous Chefs, we will keep a copy of the history available so anyone looking for it will know what's happened.
 
