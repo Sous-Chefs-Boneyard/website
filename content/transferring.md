@@ -76,11 +76,12 @@ In case it isn't already, rename the repo to `https://github.com/sous-chefs/${na
 
 There are probably many references to the old URLs out there in the world. Some places to check
 
-- Update the `README.md` with a link to the current repo and supermarket page - In `metadata.rb`:
+- Update the `README.md` with a link to the current repo and supermarket page
+- In `metadata.rb`:
 
-  ```ruby
-  source_url "https://github.com/sous-chefs/#{name}"
-  issues_url "https://github.com/sous-chefs/#{name}/issues"
-  maintainer 'Sous Chefs'
-  maintainer_email 'help@sous-chefs.org'
-  ```
+    ```ruby
+    source_url "https://github.com/sous-chefs/#{name}"
+    issues_url "https://github.com/sous-chefs/#{name}/issues"
+    maintainer 'Sous Chefs'
+    maintainer_email 'help@sous-chefs.org'
+    ```
