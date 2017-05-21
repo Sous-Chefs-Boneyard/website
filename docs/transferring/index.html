@@ -51,7 +51,7 @@
     },
     "datePublished": "0001-01-01",
     "description": "",
-    "wordCount": 520
+    "wordCount": 530
   }
 </script>
 
@@ -191,9 +191,9 @@
 
 <h2 id="before-you-begin">Before you begin</h2>
 
-<p>We need to work with the github repo owner and supermarket cookbook owner. If you aren&rsquo;t this person, let us know and we&rsquo;ll try to contact them. If necessary, fine beverages and chocolate chip cookies may be provided to encourage them to work with us.</p>
+<p>We need to work with the GitHub repo owner and supermarket cookbook owner. If you aren&rsquo;t this person, let us know and we&rsquo;ll try to contact them. If necessary, fine beverages and chocolate chip cookies may be provided to encourage them to work with us.</p>
 
-<p>When this is not possible please see <a href="https://github.com/sous-chefs/meta/blob/master/forking.md">forking</a></p>
+<p>When this is not possible please see <a href="https://github.com/sous-chefs/meta/blob/master/docs/forking.md">forking</a></p>
 
 <p>You&rsquo;ll need:</p>
 
@@ -205,7 +205,7 @@
 
 <h2 id="joining-sous-chefs">Joining Sous-Chefs</h2>
 
-<p>In order to transfer a cookbook into the sous-chefs organization on Github you must first become a member of the organization. A member of the Sous-Chefs board and assist with sending an invite to the organization.</p>
+<p>In order to transfer a cookbook into the sous-chefs organization on GitHub you must first become a member of the organization. See <a href="/becoming-a-member/">becoming a member</a> for information on how to do this yourself.</p>
 
 <h2 id="transferring-the-code">Transferring the code</h2>
 
@@ -244,15 +244,17 @@
 <li>Push <code>git push sous-chefs --all</code> and <code>git push sous-chefs --tags</code></li>
 </ul>
 
-<h2 id="have-the-proper-github-user-rights-setup">Have the proper Github user rights setup</h2>
+<h2 id="have-the-proper-github-user-rights-setup">Have the proper GitHub user rights setup</h2>
 
 <p>Once the cookbook has been transferred a Sous-Chefs board member can setup the proper permissions for the repo</p>
 
 <ul>
-<li>Add a new Github team with the same name as the cookbook</li>
+<li>Add a new GitHub team with the same name as the cookbook</li>
 <li>Add maintainers to that group</li>
 <li>Add that team to the repo with <strong>Admin</strong> privileges</li>
 </ul>
+
+<p>Alternatively you can start this process yourself by sending a pull request to <a href="https://github.com/sous-chefs/terraform-github-org">https://github.com/sous-chefs/terraform-github-org</a></p>
 
 <h2 id="transferring-the-cookbook-in-supermarket">Transferring the cookbook in Supermarket</h2>
 
@@ -267,7 +269,7 @@
 <p>In case it isn&rsquo;t already, rename the repo to <code>https://github.com/sous-chefs/${name}.git</code></p>
 
 <ul>
-<li>From the repo page on Github click <strong>Settings</strong></li>
+<li>From the repo page on GitHub click <strong>Settings</strong></li>
 <li>Under <strong>Repository name</strong> enter a new name and click <strong>Rename</strong></li>
 </ul>
 
@@ -276,14 +278,16 @@
 <p>There are probably many references to the old URLs out there in the world. Some places to check</p>
 
 <ul>
-<li>Update the <code>README.md</code> with a link to the current repo and supermarket page - In <code>metadata.rb</code>:</li>
-</ul>
+<li>Update the <code>README.md</code> with a link to the current repo and supermarket page</li>
 
-<pre><code class="language-ruby">  source_url &quot;https://github.com/sous-chefs/#{name}&quot;
-  issues_url &quot;https://github.com/sous-chefs/#{name}/issues&quot;
-  maintainer 'Sous Chefs'
-  maintainer_email 'help@sous-chefs.org'
-</code></pre>
+<li><p>In <code>metadata.rb</code>:</p>
+
+<pre><code class="language-ruby">source_url &quot;https://github.com/sous-chefs/#{name}&quot;
+issues_url &quot;https://github.com/sous-chefs/#{name}/issues&quot;
+maintainer 'Sous Chefs'
+maintainer_email 'help@sous-chefs.org'
+</code></pre></li>
+</ul>
 
 </div>
 
