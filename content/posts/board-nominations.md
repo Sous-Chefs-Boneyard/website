@@ -2,7 +2,7 @@
 author = "Dan Webb"
 date = "2017-05-21T20:24:17-05:00"
 description = "Sous Chefs Board members"
-draft = true
+draft = false
 keywords = ["board","voting"]
 title = "board nominations"
 topics = ["Board"]
