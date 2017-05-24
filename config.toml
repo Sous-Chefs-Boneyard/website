@@ -1,0 +1,46 @@
+baseURL = "http://sous-chefs.org/"
+languageCode = "en-us"
+title = "Sous Chefs"
+publishDir = "docs" 
+theme = "hyde-y"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "Sous Chefs"
+
+[params]
+    # You can use markdown here.
+    brand = "Sous Chefs"
+    topline = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
+    footline = "code with <i class='fa fa-heart'></i>"
+
+    sidebar = "left"
+
+    home = "home"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "dark"
+
+    # Google Analytics.
+    googleAnalytics = "Your Google Analytics tracking code"
+
+    # Sidebar social links.
+    github = "sous-chefs"
+    rss = false
+
+[blackfriday]
+    angledQuotes = true
+    fractions = false
+    hrefTargetBlank = false
+    latexDashes = true
+    plainIdAnchors = true
+    extensions = []
+    extensionmask = []
