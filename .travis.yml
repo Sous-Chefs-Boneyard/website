@@ -14,4 +14,4 @@ install:
   - rm -rf docs/ || exit 0 # cleanup previous run
 
 script:
-  - binaries/hugo -s # generate
+  - binaries/hugo -s . -d docs/ # generate
