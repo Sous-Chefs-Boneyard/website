@@ -1,7 +1,7 @@
 baseURL = "http://sous-chefs.org/"
 languageCode = "en-us"
 title = "Sous Chefs"
-publishDir = "docs" 
+publishDir = "." 
 theme = "hyde-y"
 
 [permalinks]
