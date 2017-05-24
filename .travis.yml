@@ -9,8 +9,5 @@ deploy:
   email: travis@sous-chefs.org
   name: Travis Deployment Bot
 
-install:
-  - rm -rf docs/ || exit 0 # cleanup previous run
-
 script:
-  - binaries/hugo -s . -d docs/ # generate
+  - binaries/hugo -s . # generate
