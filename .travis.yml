@@ -4,7 +4,7 @@ deploy:
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
     branch: master
-   #target_branch: gh-pages 
+  target_branch: master 
   fqdn: sous-chefs.org
   email: travis@sous-chefs.org
   name: Travis Deployment Bot
