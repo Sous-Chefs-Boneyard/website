@@ -6,7 +6,7 @@ Got a cookbook you'd like help with? We'd love to help!
 
 We need to work with the GitHub repo owner and supermarket cookbook owner. If you aren't this person, let us know and we'll try to contact them. If necessary, fine beverages and chocolate chip cookies may be provided to encourage them to work with us.
 
-When this is not possible please see [forking](https://github.com/sous-chefs/meta/blob/master/docs/forking.md)
+When this is not possible please see [forking]({{< ref "forking.md" >}})
 
 You'll need:
 
