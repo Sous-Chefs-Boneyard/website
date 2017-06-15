@@ -13,7 +13,7 @@ A hard fork is not the friendliest approach, so we should make no other options 
 
 - sous-chefs receives a request to fork from someone willing to be primary maintainer
 - verify that the cookbook is not adequately maintained
-- notify the original maintainers that we’ve received a request to fork, request that they 1) resume active maintenance or 2) transfer to sous-chefs. Include a deadline to respond (the friday after 1 week)
+- notify the original maintainers that we’ve received a request to fork, request that they 1) resume active maintenance or 2) transfer to sous-chefs. Include a deadline to respond (the Friday after 1 week)
 - create a soft fork so people have a place to test and merge PRs immediately
 - if the original maintainers don’t respond by the deadline, vote to fork on the day of the deadline
 
