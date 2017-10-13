@@ -1,7 +1,7 @@
 baseURL = "http://sous-chefs.org/"
 languageCode = "en-us"
 title = "Sous Chefs"
-publishDir = "." 
+publishDir = "."
 theme = "hyde-y"
 
 [permalinks]
@@ -23,7 +23,7 @@ theme = "hyde-y"
 
     sidebar = "left"
 
-    home = "home"
+    home = "Home"
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.
