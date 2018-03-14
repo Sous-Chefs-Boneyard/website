@@ -18,12 +18,11 @@ The board reserves the authority to do any lawful act necessary to operate the c
 ## Current Board Members
 
 - Tim Smith ([@tas50](https://github.com/tas50/))
-- Joseph Holsten ([@josephholsten](https://github.com/josephholsten/))
 - Dan Webb ([@damacus](https://github.com/damacus/))
 
 ## Owners
 
-Folks with complete control over the sous-chefs organization. This currently consists of cookbook maintainers.
+Folks with complete control over the sous-chefs organisation. This currently consists of cookbook maintainers.
 
 ## Chef de partie
 

@@ -1,9 +1,11 @@
 # Becoming a Member
 
-Join us on the [Chef community slack](https://chefcommunity.slack.com/messages/sous-chefs/), say hi then;
+Join us on the [Chef community slack](https://chefcommunity.slack.com/messages/sous-chefs/), and say hi!
 
-Send a PR to <https://github.com/sous-chefs/terraform-github-org>
+# Add yourself to the team
 
-Add yourself to: `members.tf` `chef_de_partie.tf`
+At Sous Chefs we use Terraform to manage our organisation membership.
 
-If there is a cookbook you wish to become a maintainer of then add yourself to that repo's corresponding file e.g. for sc-mongodb, add yourself to `mongodb.tf` (of course after discussing it in slack)
+- Send a PR to <https://github.com/sous-chefs/terraform-github-org>.
+- Add yourself to: `modules/org_membership/main.tf`.
+- Pick a cookbook (or more) you wish to help maintain and add yourself to it's corresponding terraform file.

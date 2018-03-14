@@ -1,7 +1,7 @@
 baseURL = "http://sous-chefs.org/"
 languageCode = "en-us"
 title = "Sous Chefs"
-publishDir = "." 
+publishDir = "."
 theme = "hyde-y"
 
 [permalinks]
@@ -16,14 +16,11 @@ theme = "hyde-y"
     name = "Sous Chefs"
 
 [params]
-    # You can use markdown here.
     brand = "Sous Chefs"
     topline = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
     footline = "code with <i class='fa fa-heart'></i>"
 
-    sidebar = "left"
-
-    home = "home"
+    sidebar = "right"
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.

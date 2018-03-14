@@ -1,7 +1,3 @@
-[code-of-conduct]
-  Name = "Code of Conduct"
-  URL = "code-of-conduct"
-
 [become-a-member]
   Name = "Become a member"
   URL = "becoming-a-member"
@@ -9,6 +5,10 @@
 [membership]
   Name = "Membership"
   URL = "membership"
+
+[code-of-conduct]
+  Name = "Code of Conduct"
+  URL = "code-of-conduct"
 
 [contributing]
   Name = "Contributing"
