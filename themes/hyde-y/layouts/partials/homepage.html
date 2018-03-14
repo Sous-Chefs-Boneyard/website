@@ -2,9 +2,5 @@
   <header class="container header">
     {{ partial "bloc/content/h1-title" . }}
   </header>
-  {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-  {{ range $paginator.Pages }}
-    {{ .Render "summary" }}
-  {{ end }}
-  {{ partial "bloc/content/pagination" . }}
+  {{ .Content }}
 </section>
