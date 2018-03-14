@@ -2,10 +2,27 @@
 
 Join us on the [Chef community slack](https://chefcommunity.slack.com/messages/sous-chefs/), and say hi!
 
-# Add yourself to the team
+- Go to: [`modules/org_membership/main.tf`](https://github.com/sous-chefs/terraform-github-org/blob/master/modules/org_membership/main.tf)
 
-At Sous Chefs we use Terraform to manage our organisation membership.
+- Click the pencil to "Edit this file"
 
-- Send a PR to <https://github.com/sous-chefs/terraform-github-org>.
-- Add yourself to: `modules/org_membership/main.tf`.
-- Pick a cookbook (or more) you wish to help maintain and add yourself to it's corresponding terraform file.
+- To the file, add a resource for your github user. If your username was `dmr`, you would add:
+
+```tf
+resource "github_membership" "dmr" {
+  username = "dmr"
+  role     = "member"
+}
+```
+
+- Write a commit message. For the above, a reasonable message might be `org_membership: add dmr`
+
+- Select **Create a new branch for this commit and start a pull request**. (You're welcome to enter a branch name, but the default is also just fine!)
+
+- Click **Propose File Change** to go to the "Open a Pull Request" page
+
+- Click **Create Pull Request** (You're also welcome to change the title or description, but the default is still just fine!)
+
+If there is a cookbook you wish to become a maintainer of then add yourself to that repo's corresponding file e.g. for `mongodb`, add yourself to `mongodb.tf` (of course after discussing it in slack).
+
+**If you aren't comfortable with this:** that's okay! It doesn't matter if you're prefer to remain anonymous, or are uncomfortable writing code, or aren't ready for this level of commitment, you still can help out. You don't need to be in the membership configuration to join us in the [Chef community slack](https://chefcommunity.slack.com/messages/sous-chefs/). We'll be happy to find a way to contribute that everyone is comfortable with.
