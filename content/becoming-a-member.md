@@ -1,6 +1,6 @@
 # Becoming a Member
 
-Join us on the [Chef community slack](https://chefcommunity.slack.com/messages/sous-chefs/), say hi then;
+Join us on the [Chef community slack](https://chefcommunity.slack.com/messages/sous-chefs/), and say hi!
 
 - Go to: [`modules/org_membership/main.tf`](https://github.com/sous-chefs/terraform-github-org/blob/master/modules/org_membership/main.tf)
 
