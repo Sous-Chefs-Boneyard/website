@@ -26,7 +26,7 @@ theme = "hyde-y"
     highlight = "dark"
 
     # Google Analytics.
-    googleAnalytics = "Your Google Analytics tracking code"
+    googleAnalytics = "UA-130660686-1"
 
     # Sidebar social links.
     github = "sous-chefs"
