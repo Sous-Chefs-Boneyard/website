@@ -23,4 +23,4 @@ If you can help fill this stop please apply!
 
 Fame, glory, riches.
 
-Are not included, but you will get to shape the direction of Sous-Chefs. Read [membership]({{< ref "membership.md" >}}) for more information about what the board does.
+Are not included, but you will get to shape the direction of Sous-Chefs. Read [membership]({{< ref "/membership.md" >}}) for more information about what the board does.
