@@ -3,10 +3,18 @@ version: 2.1
 workflows:
   lint:
     jobs:
+    - website/generate
     - website/lint
   deploy:
     jobs:
+    - website/generate:
+        filters:
+          branches:
+            only: [ master ]
     - website/deploy:
+        filters:
+          branches:
+            only: [ master ]
         context: website
         user_name: Kitchen Porter
         user_email: board@sous-chefs.org
@@ -19,15 +27,30 @@ orbs:
       hugo:
         docker: [image: cibuilds/hugo]
     jobs:
-      lint:
+      generate:
         executor: hugo
+        parameters:
+          hugo_params:
+            description: Parmeters to pass to the hugo command
+            type: string
+            default: -d public
         steps:
           - checkout
           - run:
               name: Update submodules
               command: git submodule sync && git submodule update --init
           - run:
-              name: lint html
+              name: Generate site
+              command: hugo -v << parameters.hugo_params >>
+          - persist_to_workspace:
+              root: .
+              paths: [ . ]
+      lint:
+        executor: hugo
+        steps:
+          - attach_workspace: { at: . }
+          - run:
+              name: lint generated html
               command: htmlproofer ${HUGO_BUILD_DIR} --allow-hash-href --check-html --empty-alt-ignore
       deploy:
         executor: hugo
@@ -50,7 +73,7 @@ orbs:
           HUGO_ENV: production
           HUGO_BASE_URL: sous-chefs.org
         steps:
-          - checkout
+          - attach_workspace: { at: . }
           - run:
               name: Update submodules
               command: |
@@ -59,7 +82,6 @@ orbs:
           - run:
               name: deploy site
               command: |
-                hugo -v -d public
                 cd public
                 git init
                 git config user.name "<< parameters.user_name >>"
