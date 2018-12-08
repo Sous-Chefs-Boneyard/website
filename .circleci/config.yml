@@ -45,6 +45,13 @@ orbs:
               paths: [ . ]
       lint:
         executor: hugo
+        parameters:
+          build_dir:
+            type: string
+            description: hugo build director
+            default: public
+        environment:
+          HUGO_BUILD_DIR: '<< parameters.build_dir >>'
         steps:
           - attach_workspace: { at: . }
           - run:
