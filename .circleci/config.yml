@@ -3,7 +3,8 @@ version: 2.1
 workflows:
   lint:
     jobs:
-    - website/generate
+    - website/generate:
+        filters: { branches: { ignore: [master gh-pages] } }
     - website/lint:
         requires: [website/generate]
   deploy:
@@ -93,6 +94,7 @@ orbs:
                 git config user.email "<<parameters.user_email >>"
 
                 cp ../CNAME .
+                cp -R ../.circleci .
                 git add .
                 git commit -m "Deploy from CircleCI ${CIRCLE_SHA1}"
                 git push --force --quiet "https://${GITHUB_TOKEN}@github.com/<< parameters.github_organisation >>/<< parameters.repository >>.git" master:gh-pages
