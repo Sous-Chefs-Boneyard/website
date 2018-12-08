@@ -4,7 +4,11 @@ workflows:
   lint:
     jobs:
     - website/generate:
-        filters: { branches: { ignore: [master gh-pages] } }
+        filters:
+          branches:
+            ignore:
+              - master
+              - gh-pages
     - website/lint:
         requires: [website/generate]
   deploy:
