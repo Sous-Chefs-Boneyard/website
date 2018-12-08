@@ -5,7 +5,7 @@ Where it is not possible to contact the existing owner and transfer ownership to
 **Note: Adoption**
 
 If adopting an existing cookbook you must use the current name to carry on support for the existing user base.
-In this case please see [cookbook transferring](https://github.com/sous-chefs/meta/blob/master/transfering-a-cookbook.md)
+In this case please see [cookbook transferring]({{< ref "/transferring.md" >}})
 
 ## Before you begin
 

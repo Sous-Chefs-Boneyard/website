@@ -10,8 +10,8 @@
 
 - [Documentation License](#documentation-license)
 
-  - [Creative Commons Attribution 4.0 International _LICENSE_ File](#creative-commons-attribution-40-international-license-file)
-  - [Creative Commons Attribution 4.0 International Icon](#creative-commons-attribution-40-international-icon)
+  - [Creative Commons Attribution 4.0 International _LICENSE_ File]
+  - [Creative Commons Attribution 4.0 International Icon]
 
 ## Software License
 
@@ -288,8 +288,8 @@ You can see the different licenses available here: <http://creativecommons.org/c
 
 How to add the [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/) license to a project:
 
-- [The documentation repositories **must have** a _LICENSE_ file with the license.](#creative-commons-attribution-40-International-license-file)
-- [The documentation files should have an icon with the license at the bottom.](#creative-commons-attribution-40-international-icon)
+- [The documentation repositories **must have** a _LICENSE_ file with the license.]
+- [The documentation files should have an icon with the license at the bottom.]
 
 ### Creative Commons Attribution 4.0 International _LICENSE_ File
 
