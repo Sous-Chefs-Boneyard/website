@@ -4,17 +4,15 @@ workflows:
   lint:
     jobs:
     - website/generate
-    - website/lint
+    - website/lint:
+        requires: [website/generate]
   deploy:
     jobs:
     - website/generate:
-        filters:
-          branches:
-            only: [ master ]
+        filters: { branches: { only: [master] } }
     - website/deploy:
-        filters:
-          branches:
-            only: [ master ]
+        filters: { branches: { only: [master] } }
+        requires: [website/generate]
         context: website
         user_name: Kitchen Porter
         user_email: board@sous-chefs.org
