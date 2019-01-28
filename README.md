@@ -1,5 +1,7 @@
 # sous-chefs.org
 
+[![Build Status](https://img.shields.io/circleci/project/github/sous-chefs/website/master.svg)](https://circleci.com/gh/sous-chefs/website)
+
 The website is created using the static site generator, [Hugo](https://gohugo.io/).
 
 ## Development
