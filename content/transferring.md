@@ -87,6 +87,7 @@ There are probably many references to the old URLs out there in the world. Some 
     ```
 ## Migrate to circleci testing
 
-We use circleci for testing, you will need to migrate to this testing suite, look at another cookbook for an example or create an issue to migrate to circleci and post it in the sous-chefs slack channel, someone will help you
+[Circleci](https://circleci.com) is used for testing cookbooks. There are many examples of Circleci config in the sous-chefs org. If you need further assistance, post in the sous-chefs slack channel!
+
 
 
