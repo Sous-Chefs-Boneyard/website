@@ -85,3 +85,9 @@ There are probably many references to the old URLs out there in the world. Some 
     maintainer 'Sous Chefs'
     maintainer_email 'help@sous-chefs.org'
     ```
+## Migrate to circleci testing
+
+[Circleci](https://circleci.com) is used for testing cookbooks. There are many examples of Circleci config in the sous-chefs org. If you need further assistance, post in the sous-chefs slack channel!
+
+
+
