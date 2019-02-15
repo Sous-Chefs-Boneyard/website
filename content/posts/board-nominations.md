@@ -7,7 +7,6 @@ keywords = ["board","voting"]
 title = "board nominations"
 topics = ["Board"]
 type = "post"
-
 +++
 
 # Vote
@@ -19,7 +18,7 @@ We've reached the time of year to vote in another set of board members.
 This year we're pushing for a more diverse crowd of maintainers and advocates.
 If you can help fill this stop please apply!
 
-## What's in it for me?
+## What's in it for me
 
 Fame, glory, riches.
 
