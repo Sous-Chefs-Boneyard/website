@@ -2,16 +2,15 @@
 
 ## Table of Contents
 
-- [Software License](#software-license)
-
-  - [Apache License _LICENSE_ file](#apache-license-license-file)
-  - [Apache License Header](#apache-license-header)
-  - [Apache License in the _README_](#apache-license-in-the-readme)
-
-- [Documentation License](#documentation-license)
-
-  - [Creative Commons Attribution 4.0 International _LICENSE_ File]
-  - [Creative Commons Attribution 4.0 International Icon]
+- [Licenses](#licenses)
+  - [Table of Contents](#table-of-contents)
+  - [Software License](#software-license)
+    - [Apache License _LICENSE_ file](#apache-license-license-file)
+    - [Apache License Header](#apache-license-header)
+    - [Apache License in the _README_](#apache-license-in-the-readme)
+  - [Documentation License](#documentation-license)
+    - [Creative Commons Attribution 4.0 International _LICENSE_ File](#creative-commons-attribution-40-international-license-file)
+    - [Creative Commons Attribution 4.0 International Icon](#creative-commons-attribution-40-international-icon)
 
 ## Software License
 
@@ -22,14 +21,13 @@ You can see the different licenses available here: <http://choosealicense.com/>
 How to add the [Apache License](http://www.apache.org/licenses/LICENSE-2.0) to a project:
 
 - [The repositories **must have** a _LICENSE_ file with the license.](#apache-license-license-file)
-- [The source code files should have the license in the header.](#apache-license-header)
 - [The _README_ file should have the license at the bottom.](#apache-license-in-the-readme)
 
 ### Apache License _LICENSE_ file
 
 Put the license in a file called _LICENSE_ in the root of the repository:
 
-```
+```text
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -237,7 +235,7 @@ Put the license in a file called _LICENSE_ in the root of the repository:
 
 This should be added to the header of each source file:
 
-```
+```text
 Copyright 2015, Sous Chefs
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -257,7 +255,7 @@ limitations under the License.
 
 The _README_ file should have the license at the bottom. For example:
 
-```
+```text
 # License and Author
 
 **Original Author:** [John Doe](https://github.com/johndoe)
@@ -301,10 +299,7 @@ Get the license from here: <http://creativecommons.org/licenses/by/4.0/legalcode
 
 You should put this at the bottom of each documentation file:
 
-```
---
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-```
-
--- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)<br>
+```text
+-- [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+```
