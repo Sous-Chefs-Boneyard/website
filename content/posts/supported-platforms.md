@@ -4,7 +4,7 @@ date = "2019-02-15T20:24:17-05:00"
 description = "Coobkook Best Practices"
 draft = false
 keywords = ["cookbook","best practices"]
-title = "Chef Conf 2017 "
+title = "Sous-Chefs Cookbook Best Practises"
 topics = ["cookbook","best practices"]
 type = "post"
 
