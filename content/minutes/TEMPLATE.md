@@ -1,17 +1,17 @@
 +++
 author = "Dan Webb"
 date = "2017-05-08T20:00:00"
-description = "2017-05-08 Weekly Sous-Chefs Meeting"
+description = "yyyy-mm-dd Weekly Sous-Chefs Meeting"
 draft = false
 keywords = []
-title = "2017-05-08 Weekly Sous-Chefs Meeting"
+title = "yyyy-mm-dd Weekly Sous-Chefs Meeting"
 topics = []
 type = "meeting"
 +++
 
 # Date/Time
 
-Monday May 8 2017 12:00-10:00 PST
+yyyy-mm-dd
 
 ## Where
 
@@ -23,11 +23,7 @@ Monday May 8 2017 12:00-10:00 PST
 
 ## Development News
 
-
-## Projects website
-
-- sc-generator
-- sc-foodcritic-rules
+## Projects
 
 ## Minutes
 
