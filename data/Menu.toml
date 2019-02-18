@@ -2,6 +2,10 @@
   Name = "Become a member"
   URL = "becoming-a-member"
 
+[best-practices]
+  Name = "Best Practices"
+  URL = "best-practices"
+
 [membership]
   Name = "Membership"
   URL = "membership"
