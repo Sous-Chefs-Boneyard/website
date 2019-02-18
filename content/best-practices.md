@@ -25,7 +25,7 @@ The majority of our survey userbase uses the following and as such as aim to sup
 
 ## Custom Resources over Attribute Driven
 
-Our cookbooks are [application cookbooks](#application-cookbooks), and therefore designed to only manage a single type of application at a time. For example, a PostgreSQL server.
+Our cookbooks are application cookbooks, and therefore designed to only manage a single type of application at a time. For example, a PostgreSQL server.
 
 All configurablebles should be surfaced through a easy to understand, [custom resource](https://docs.chef.io/custom_resources.html) interface.
 
