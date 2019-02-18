@@ -33,3 +33,7 @@
 [departure]
   Name = "Departure"
   URL = "departure"
+
+[meetings]
+  Name = "Meetings"
+  URL = "meetings"
