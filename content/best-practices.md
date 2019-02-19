@@ -21,7 +21,7 @@ The majority of our survey userbase uses the following and as such as aim to sup
 - Centos 6/7
 - Debian 8/9
 - Ubuntu 16.04/18.04
-- Amazon 1/2
+- Amazon 1\/2
 
 ## Custom Resources over Attribute Driven
 
