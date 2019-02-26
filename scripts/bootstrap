@@ -1,0 +1,16 @@
+#!/bin/sh
+# bootstrap: install dependencies
+
+if ! command -v hugo; then
+        echo "\`hugo\` could not be found, is it installed? Try following https://gohugo.io/getting-started/installing/" >&2
+        exit 1
+else
+        echo "\`hugo\`: found!"
+fi
+
+printf "submodules: "
+git submodule sync
+git submodule update --init
+echo "initialized"
+
+echo "Everything is ready! Try it out by running \`scripts/run\`"

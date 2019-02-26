@@ -1,0 +1,7 @@
+#!/bin/sh
+# lint: check for common mistakes
+             
+exec htmlproofer ${HUGO_BUILD_DIR:=public} \
+        --allow-hash-href \
+        --check-html \
+        --empty-alt-ignore

@@ -1,0 +1,4 @@
+#!/bin/sh
+# run: start the webserver
+
+exec hugo server -ws .

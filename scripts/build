@@ -1,0 +1,4 @@
+#!/bin/sh
+# build: generate static site from source
+
+exec hugo --verbose "$@"
