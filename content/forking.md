@@ -2,7 +2,7 @@
 
 Where it is not possible to contact the existing owner and transfer ownership to the sous-chefs, we can take over maintenance of a codebase by creating a hard fork.
 
-**Note: Adoption**
+## Adoption Note
 
 If adopting an existing cookbook you must use the current name to carry on support for the existing user base.
 In this case please see [cookbook transferring]({{< ref "/transferring.md" >}})
