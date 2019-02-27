@@ -9,8 +9,8 @@
     - [Apache License Header](#apache-license-header)
     - [Apache License in the _README_](#apache-license-in-the-readme)
   - [Documentation License](#documentation-license)
-    - [Creative Commons Attribution 4.0 International _LICENSE_ File](#creative-commons-attribution-40-international-license-file)
-    - [Creative Commons Attribution 4.0 International Icon](#creative-commons-attribution-40-international-icon)
+    - [Creative Commons Attribution 4.0 International _LICENSE_ File](#creative-commons-attribution-4-0-international-license-file)
+    - [Creative Commons Attribution 4.0 International Icon](#creative-commons-attribution-4-0-international-icon)
 
 ## Software License
 
