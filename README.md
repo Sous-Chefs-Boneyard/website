@@ -12,7 +12,8 @@ The website is created using the static site generator, [Hugo](https://gohugo.io
     git clone git@github.com:sous-chefs/website
     cd website
     git checkout -b my-feature-branch
-    hugo server -ws .
+    ./scripts/bootstrap
+    ./scripts/run
     ```
 
 4. Commit your changes, push the branch to the remote and open a Pull Request.
