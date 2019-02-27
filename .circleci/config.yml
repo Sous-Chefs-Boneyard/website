@@ -41,10 +41,10 @@ orbs:
           - checkout
           - run:
               name: Update submodules
-              command: git submodule sync && git submodule update --init
+              command: ./scripts/bootstrap
           - run:
               name: Generate site
-              command: hugo -v << parameters.hugo_params >>
+              command: ./scripts/build << parameters.hugo_params >>
           - persist_to_workspace:
               root: .
               paths: [ . ]
@@ -61,7 +61,7 @@ orbs:
           - attach_workspace: { at: . }
           - run:
               name: lint generated html
-              command: htmlproofer ${HUGO_BUILD_DIR} --allow-hash-href --check-html --empty-alt-ignore
+              command: ./scripts/lint
       deploy:
         executor: hugo
         working_directory: ~/hugo
@@ -87,8 +87,7 @@ orbs:
           - run:
               name: Update submodules
               command: |
-                git submodule sync
-                git submodule update --init
+                ./script/bootstrap
           - run:
               name: deploy site
               command: |
