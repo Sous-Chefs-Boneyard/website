@@ -26,6 +26,10 @@
   Name = "Transferring"
   URL = "transferring"
 
+[releasing-a-cookbook]
+  Name = "Releasing a cookbook"
+  URL = "releasing-a-cookbook"
+
 [licenses]
   Name = "Licenses"
   URL = "licenses"
