@@ -1,11 +1,13 @@
-# Forking to Sous Chefs
-
+---
+title: 'Forking to Sous Chefs'
+date: 2018-11-28T15:14:39+10:00
+---
 Where it is not possible to contact the existing owner and transfer ownership to the sous-chefs, we can take over maintenance of a codebase by creating a hard fork.
 
 ## Adoption Note
 
 If adopting an existing cookbook you must use the current name to carry on support for the existing user base.
-In this case please see [cookbook transferring]({{< ref "/transferring.md" >}})
+In this case please see [cookbook transferring]({{< ref "minutes/transferring.md" >}})
 
 ## Before you begin
 
@@ -22,9 +24,9 @@ Sous Chefs should not make a release until we know whether we get a transfer (an
 ## Procedure
 
 You should rename using the following naming schema:
+
 - Cookbook: `mongodb` → `sc-mongodb` as per [RFC-78](https://github.com/chef/chef-rfc/blob/master/rfc078-supermarket-prefix.md)
 - Repository: `sc-mongodb`
-
 
 ### Use of provides to maintain resource compatibility
 

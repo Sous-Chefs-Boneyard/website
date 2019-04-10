@@ -1,17 +1,15 @@
 +++
 author = "Joseph A P Holsten"
-date = "2019-12-31"
-description = "2018-12-31 Weekly Release Announcements"
+date = "2018-12-31"
+description = "2018 In Review"
 draft = false
 keywords = []
-title = "2018-12-31 Weekly Release Announcements"
+title = "2018 In Review"
 topics = []
 type = "post"
 +++
 
 Hello, this is Joseph Holsten & Dan Webb from Sous Chefs. We've had quite a year, so I thought I'd summarize the major moments. Here we go!
-
-# 2018 In Review
 
 2018 was a pretty big year in Sous-Chefs, we started on [OpenCollective](https://opencollective.com/sous-chefs) to raise funds for our core contributors. Many hours go into rewriting, maintaining, and reviewing pull requests. It's a great way to give back to those that empower you and your company!
 

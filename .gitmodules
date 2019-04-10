@@ -1,3 +1,7 @@
 [submodule "themes/hyde-y"]
 	path = themes/hyde-y
 	url = https://github.com/enten/hyde-y
+
+[submodule "themes/hugo-whisper-theme"]
+	path = themes/hugo-whisper-theme
+	url = https://github.com/JugglerX/hugo-whisper-theme

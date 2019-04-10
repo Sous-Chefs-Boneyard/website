@@ -1,42 +1,36 @@
 baseURL = "https://sous-chefs.org/"
 languageCode = "en-us"
 title = "Sous Chefs"
-publishDir = "."
-theme = "hyde-y"
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-    code = "/:slug/"
-
-[taxonomies]
-    tag = "tags"
-    topic = "topics"
+publishDir = "public"
+themesDir = "themes"
+theme = "hugo-whisper-theme"
 
 [author]
     name = "Sous Chefs"
 
+# [params]
+#     brand = "Sous Chefs"
+#     topline = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
+#     homepage_button_link = '/docs'
+#     homepage_button_text = 'Read The Docs'
+#     googleAnalytics = "UA-130660686-1"
+
 [params]
-    brand = "Sous Chefs"
-    topline = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
-    footline = "code with <i class='fa fa-heart'></i>"
+  google_analytics_id=""
+  homepage_button_link = '/docs'
+  homepage_button_text = 'Read The Docs'
 
-    sidebar = "right"
-    # Select a syntax highight.
-    # Check the static/css/highlight directory for options.
-    highlight = "dark"
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
 
-    # Google Analytics.
-    googleAnalytics = "UA-130660686-1"
+[[menu.main]]
+    name = "Minutes"
+    url = "/minutes/"
+    weight = 2
 
-    # Sidebar social links.
-    github = "sous-chefs"
-    rss = false
-
-[blackfriday]
-    angledQuotes = true
-    fractions = false
-    hrefTargetBlank = false
-    latexDashes = true
-    plainIdAnchors = true
-    extensions = []
-    extensionmask = []
+[[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 3

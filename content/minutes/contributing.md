@@ -1,4 +1,7 @@
-# Contributing to Sous-Chefs
+---
+title: 'Contributing to Sous Chefs'
+date: 2018-11-28T15:14:39+10:00
+---
 
 We are glad you want to contribute to a sous-chefs cookbook! The first step is the desire to improve the project.
 

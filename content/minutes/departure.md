@@ -1,4 +1,7 @@
-# Leaving Sous Chefs
+---
+title: 'Leaving Sous Chefs'
+date: 2018-11-28T15:14:39+10:00
+---
 
 If a maintainer wants to stop or leave, it's cool. We'll gladly point to the project's new home and keep an archive of the old history.
 
