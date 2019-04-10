@@ -7,7 +7,7 @@ Where it is not possible to contact the existing owner and transfer ownership to
 ## Adoption Note
 
 If adopting an existing cookbook you must use the current name to carry on support for the existing user base.
-In this case please see [cookbook transferring]({{< ref "minutes/transferring.md" >}})
+In this case please see [cookbook transferring]({{< ref "docs/transferring.md" >}})
 
 ## Before you begin
 

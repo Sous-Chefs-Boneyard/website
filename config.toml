@@ -13,12 +13,14 @@ theme = "hugo-whisper-theme"
 #     topline = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
 #     homepage_button_link = '/docs'
 #     homepage_button_text = 'Read The Docs'
-#     googleAnalytics = "UA-130660686-1"
+
 
 [params]
   google_analytics_id=""
   homepage_button_link = '/docs'
   homepage_button_text = 'Read The Docs'
+  googleAnalytics = "UA-130660686-1"
+  mainSections = ["minutes","docs"]
 
 [[menu.main]]
     name = "Home"
@@ -28,4 +30,14 @@ theme = "hugo-whisper-theme"
 [[menu.main]]
     name = "Docs"
     url = "/docs/"
+    weight = 2
+
+[[menu.main]]
+    name = "Minutes"
+    url = "/minutes/"
     weight = 3
+
+[[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 4
