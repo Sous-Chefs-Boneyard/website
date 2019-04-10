@@ -26,11 +26,6 @@ theme = "hugo-whisper-theme"
     weight = 1
 
 [[menu.main]]
-    name = "Minutes"
-    url = "/minutes/"
-    weight = 2
-
-[[menu.main]]
     name = "Docs"
     url = "/docs/"
     weight = 3
