@@ -9,8 +9,6 @@ workflows:
             ignore:
               - master
               - gh-pages
-    - website/lint:
-        requires: [website/generate]
   deploy:
     jobs:
     - website/generate:
