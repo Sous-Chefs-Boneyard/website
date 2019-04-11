@@ -5,21 +5,10 @@ publishDir = "public"
 themesDir = "themes"
 theme = "hugo-whisper-theme"
 
-[author]
-    name = "Sous Chefs"
-
-# [params]
-#     brand = "Sous Chefs"
-#     topline = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
-#     homepage_button_link = '/docs'
-#     homepage_button_text = 'Read The Docs'
-
-
 [params]
-  google_analytics_id=""
   homepage_button_link = '/docs'
   homepage_button_text = 'Read The Docs'
-  googleAnalytics = "UA-130660686-1"
+  google_analytics_id = "UA-130660686-1"
   mainSections = ["minutes","docs"]
 
 [[menu.main]]
@@ -37,7 +26,9 @@ theme = "hugo-whisper-theme"
     url = "/minutes/"
     weight = 3
 
-[[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 4
+# Uncomment and add a section to mainSections
+# when we get posts
+# [[menu.main]]
+#     name = "Posts"
+#     url = "/posts/"
+#     weight = 4
