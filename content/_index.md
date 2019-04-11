@@ -3,7 +3,7 @@ title: 'Sous Chefs'
 date: 2018-11-28T15:14:39+10:00
 ---
 
-The Sous Chefs are a community of Chef cookbook maintainers working together to maintain important cookbooks. We also adopt cookbooks that are looking for a new home because the maintainer has moved on from using Chef or does not want the burden of maintaining it themselves anymore. You can learn more about Sous Chefs in this video from ChefConf 2017.
+The Sous Chefs are a community of Chef cookbook maintainers working together to maintain important cookbooks. We also adopt cookbooks that are looking for a new home because the maintainer has moved on from using Chef or does not want the burden of maintaining it themselves anymore.
 
 ## Join Us
 
