@@ -11,6 +11,19 @@ theme = "hugo-whisper-theme"
   google_analytics_id = "UA-130660686-1"
   mainSections = ["minutes","docs"]
 
+  [params.homepage_meta_tags]
+    meta_description = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
+    meta_og_title = "Sous-Chefs"
+    meta_og_type = "website"
+    meta_og_url = "https://sous-chefs.org"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_twitter_site = "@souschefsorg"
+    meta_twitter_creator = "@souschefsorg"
+
+[params.logo]
+    mobile = "logo.png"
+    standard  = "logo.png"
+
 [[menu.main]]
     name = "Home"
     url = "/"
