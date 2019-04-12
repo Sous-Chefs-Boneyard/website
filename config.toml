@@ -16,13 +16,12 @@ theme = "hugo-whisper-theme"
     meta_og_title = "Sous-Chefs"
     meta_og_type = "website"
     meta_og_url = "https://sous-chefs.org"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
     meta_twitter_site = "@souschefsorg"
     meta_twitter_creator = "@souschefsorg"
 
 [params.logo]
-    mobile = "/images/logo.png"
-    standard  = "/images/logo.png"
+    mobile = "/images/logo.jpg"
+    standard  = "/images/logo.jpg"
 
 [[menu.main]]
     name = "Home"
