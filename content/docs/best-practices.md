@@ -1,5 +1,5 @@
 ---
-title: 'Coobkook Best Practices'
+title: 'Cookbook Best Practices'
 date: 2018-11-28T15:14:39+10:00
 ---
 
@@ -18,7 +18,7 @@ The majority of our survey userbase uses the following and as such as aim to sup
 
 Our cookbooks are application cookbooks, and therefore designed to only manage a single type of application at a time. For example, a PostgreSQL server.
 
-All configurablebles should be surfaced through a easy to understand, [custom resource](https://docs.chef.io/custom_resources.html) interface.
+All configurables should be surfaced through a easy to understand, [custom resource](https://docs.chef.io/custom_resources.html) interface.
 
 For example the [postgresql_client_install resource](https://github.com/sous-chefs/postgresql/#postgresql_client_install), surfaces a version atrribute. Which is obvious to the user. Much like a template, or file resource.
 
