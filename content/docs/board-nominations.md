@@ -9,8 +9,6 @@ topics = ["Board"]
 type = "post"
 +++
 
-# Vote
-
 We've reached the time of year to vote in another set of board members.
 
 ## What we're looking for
@@ -22,4 +20,4 @@ If you can help fill this stop please apply!
 
 Fame, glory, riches.
 
-Are not included, but you will get to shape the direction of Sous-Chefs. Read [membership]({{< ref "/membership.md" >}}) for more information about what the board does.
+Are not included, but you will get to shape the direction of Sous-Chefs. Read [membership]({{< ref "/docs/membership.md" >}}) for more information about what the board does.

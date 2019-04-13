@@ -1,16 +1,7 @@
-+++
-author = "Dan Webb"
-date = "2019-02-15T20:24:17-05:00"
-description = "Coobkook Best Practices"
-draft = false
-keywords = ["cookbook","best practices"]
-title = "Sous-Chefs Cookbook Best Practises"
-topics = ["cookbook","best practices"]
-type = "post"
-
-+++
-
-# Cookbook Best Practices
+---
+title: 'Coobkook Best Practices'
+date: 2018-11-28T15:14:39+10:00
+---
 
 If we're adopting a cookbook and trying to bring it up to scratch, these are likely the first things people will expect.
 

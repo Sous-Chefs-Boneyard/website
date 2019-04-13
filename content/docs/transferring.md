@@ -1,5 +1,7 @@
-# Transferring a Cookbook to the Sous Chefs
-
+---
+title: 'Tranferring to Sous Chefs'
+date: 2018-11-28T15:14:39+10:00
+---
 Got a cookbook you'd like help with? We'd love to help!
 
 ## Before you begin

@@ -1,4 +1,7 @@
-# Becoming a Member
+---
+title: 'Becoming a Member'
+date: 2018-11-28T15:14:39+10:00
+---
 
 Join us on the [Chef community slack](https://chefcommunity.slack.com/messages/sous-chefs/), and say hi!
 

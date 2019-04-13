@@ -1,42 +1,46 @@
 baseURL = "https://sous-chefs.org/"
 languageCode = "en-us"
 title = "Sous Chefs"
-publishDir = "."
-theme = "hyde-y"
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-    code = "/:slug/"
-
-[taxonomies]
-    tag = "tags"
-    topic = "topics"
-
-[author]
-    name = "Sous Chefs"
+publishDir = "public"
+themesDir = "themes"
+theme = "hugo-whisper-theme"
 
 [params]
-    brand = "Sous Chefs"
-    topline = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
-    footline = "code with <i class='fa fa-heart'></i>"
+  homepage_button_link = '/docs'
+  homepage_button_text = 'Read The Docs'
+  google_analytics_id = "UA-130660686-1"
+  mainSections = ["minutes","docs"]
 
-    sidebar = "right"
-    # Select a syntax highight.
-    # Check the static/css/highlight directory for options.
-    highlight = "dark"
+  [params.homepage_meta_tags]
+    meta_description = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
+    meta_og_title = "Sous-Chefs"
+    meta_og_type = "website"
+    meta_og_url = "https://sous-chefs.org"
+    meta_twitter_site = "@souschefsorg"
+    meta_twitter_creator = "@souschefsorg"
 
-    # Google Analytics.
-    googleAnalytics = "UA-130660686-1"
+[params.logo]
+    mobile = "/images/logo.jpg"
+    standard  = "/images/logo.jpg"
 
-    # Sidebar social links.
-    github = "sous-chefs"
-    rss = false
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
 
-[blackfriday]
-    angledQuotes = true
-    fractions = false
-    hrefTargetBlank = false
-    latexDashes = true
-    plainIdAnchors = true
-    extensions = []
-    extensionmask = []
+[[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 2
+
+[[menu.main]]
+    name = "Minutes"
+    url = "/minutes/"
+    weight = 3
+
+# Uncomment and add a section to mainSections
+# when we get posts
+# [[menu.main]]
+#     name = "Posts"
+#     url = "/posts/"
+#     weight = 4
