@@ -4,7 +4,7 @@ date = "2017-05-21T20:24:17-05:00"
 description = "Sous Chefs Board members"
 draft = false
 keywords = ["board","voting"]
-title = "board nominations"
+title = "Board Nominations"
 topics = ["Board"]
 type = "post"
 +++

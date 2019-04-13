@@ -1,5 +1,5 @@
 ---
-title: 'Tranferring to Sous Chefs'
+title: 'Transferring to Sous Chefs'
 date: 2018-11-28T15:14:39+10:00
 ---
 Got a cookbook you'd like help with? We'd love to help!
