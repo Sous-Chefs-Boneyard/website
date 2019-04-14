@@ -34,14 +34,14 @@ We moved our cookbook testing from TravisCI to CircleCI accross the board, for r
 
 The following cookbooks are currently underloved, but with a small number of community members. We know they've provided value to poeple in the past, but require some love.
 
-- [`hashicorp-vault`](www.github.com/sous-chefs/hashicorp-vault)
-- [`consul`](www.github.com/sous-chefs/consul)
-- [`nexus`](www.github.com/sous-chefs/nexus)
-- [`aptly`](www.github.com/sous-chefs/aptly)
-- [`winrm`](www.github.com/sous-chefs/winrm)
-- [`kismet`](www.github.com/sous-chefs/kismet)
-- [`sensors`](www.github.com/sous-chefs/sensors)
-- [`reprepro`](www.github.com/sous-chefs/reprepro)
+- [`hashicorp-vault`](https://www.github.com/sous-chefs/hashicorp-vault)
+- [`consul`](https://www.github.com/sous-chefs/consul)
+- [`nexus`](https://www.github.com/sous-chefs/nexus)
+- [`aptly`](https://www.github.com/sous-chefs/aptly)
+- [`winrm`](https://www.github.com/sous-chefs/winrm)
+- [`kismet`](https://www.github.com/sous-chefs/kismet)
+- [`sensors`](https://www.github.com/sous-chefs/sensors)
+- [`reprepro`](https://www.github.com/sous-chefs/reprepro)
 
 ## Now included in Chef 14
 

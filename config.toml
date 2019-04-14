@@ -38,9 +38,3 @@ theme = "hugo-whisper-theme"
     url = "/minutes/"
     weight = 3
 
-# Uncomment and add a section to mainSections
-# when we get posts
-# [[menu.main]]
-#     name = "Posts"
-#     url = "/posts/"
-#     weight = 4
