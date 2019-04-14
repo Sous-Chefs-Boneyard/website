@@ -4,7 +4,7 @@ First things first, you need to be a `collaborator` on the cookbook in the super
 
 ## First, the basics
 
-* Setup an account on https://supermarket.chef.io
+* Setup an account on <https://supermarket.chef.io>
 * SuperMarket pem key saved locally, if you are just setting up, it will output the pem for you
 * Install [stove](https://github.com/tas50/stove)
 
