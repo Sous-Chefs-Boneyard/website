@@ -11,7 +11,7 @@ theme = "hugo-whisper-theme"
   google_analytics_id = "UA-130660686-1"
   mainSections = ["minutes","docs"]
 
-  [params.homepage_meta_tags]
+[params.homepage_meta_tags]
     meta_description = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
     meta_og_title = "Sous-Chefs"
     meta_og_type = "website"
