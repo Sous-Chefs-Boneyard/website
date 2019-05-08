@@ -1,6 +1,7 @@
 +++
 author = "Dan Webb"
 date = "2017-05-21T20:24:17-05:00"
+expiryDate = "2018-05-21T20:24:17-05:00"
 description = "Sous-Chefs At Chef Conf 2017"
 draft = false
 keywords = ["presentation","chefconf"]
