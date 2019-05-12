@@ -20,8 +20,8 @@ theme = "hugo-whisper-theme"
     meta_twitter_creator = "@souschefsorg"
 
 [params.logo]
-    mobile = "/images/logo.jpg"
-    standard  = "/images/logo.jpg"
+    mobile = "/images/logo.png"
+    standard  = "/images/logo.png"
 
 [[menu.main]]
     name = "Home"
