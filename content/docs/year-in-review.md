@@ -1,13 +1,7 @@
-+++
-author = "Joseph A P Holsten"
-date = "2018-12-31"
-description = "2018 In Review"
-draft = false
-keywords = []
-title = "2018 In Review"
-topics = []
-type = "post"
-+++
+---
+title: "2018 In Review"
+date: "2018-12-31"
+---
 
 Hello, this is Joseph Holsten & Dan Webb from Sous Chefs. We've had quite a year, so I thought I'd summarize the major moments. Here we go!
 

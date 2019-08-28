@@ -1,13 +1,7 @@
-+++
-author = "Sous Chefs"
-date = "2019-05-12"
-description = "Chef License Change"
-draft = false
-keywords = ["chef", "licensing"]
-title = "Chef License Change"
-topics = ["chef"]
-type = "post"
-+++
+---
+title: "Chef License Change"
+date: 2019-05-12
+---
 
 Sous Chefs, as one of the most active communities around Chef, we felt it would be useful and appropriate to respond to the recent announcements from Chef.
 
