@@ -1,13 +1,7 @@
-+++
-author = "Dan Webb"
-date = "2017-05-21T20:24:17-05:00"
-description = "Sous Chefs Board members"
-draft = false
-keywords = ["board","voting"]
-title = "Board Nominations"
-topics = ["Board"]
-type = "post"
-+++
+---
+title: "Board Nominations"
+date: 2017-05-21T20:24:17-05:00
+---
 
 We've reached the time of year to vote in another set of board members.
 
