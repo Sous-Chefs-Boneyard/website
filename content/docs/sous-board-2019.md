@@ -17,19 +17,20 @@ We wish them all the best and hope that they remain active members of the commun
 
 ## Board of 2019
 
-We would like to welcome to the Sous-Chefs board:
-
-### John Roesler
-
-[John](https://github.com/JohnRoesler), is new to the board this year and has been an active member of the Sous-Chefs community and in the last year has been working a lot on [HaProxy cookbook](https://github.com/sous-chefs/haproxy/) along with all the other cookbooks we mange, we are really pleased to have him join us
-
-### Jason Field
-
-[Xorima](https://github.com/Xorima), is new to the board this year and has been active in Sous-Chefs and was predominantly focused on helping us move to the new CircleCI build pipeline and ensuring all our cookbooks can pass their tests, we look forward to what he has to bring to the board
+We would like to introduce and welcome the Sous-Chefs board:
 
 ### Tim Smith
 
-[Tas50](https://github.com/Tas50), is coninuting on in his Leadership position within Sous-Chef, Tim has been pivotal to Sous-Chefs and aiding us in writing better cookbooks along with some amazing work for chef which has allowed us to automate more testing and test fixes than ever before
+[Tas50](https://github.com/Tas50), is coninuting on in his Leadership position within Sous-Chef, Tim has been pivotal to Sous-Chefs and aiding us in writing better cookbooks along with some amazing work for chef which has allowed us to automate more testing and test fixes than ever before. We are greatful for his continuing work with us
+
+
+### John Roesler
+
+[John](https://github.com/JohnRoesler), is new to the board this year and has been an active member of the Sous-Chefs community and in the last year has been working a lot on [HaProxy cookbook](https://github.com/sous-chefs/haproxy/) along with all the other cookbooks we mange, we are really excited to have him join us
+
+### Jason Field
+
+[Xorima](https://github.com/Xorima), is new to the board this year having been active in Sous-Chefs and awarded Awesome Community Chef at ChefConf London. He has predominantly focused on helping us move to the new CircleCI build pipeline and ensuring all our cookbooks can pass their tests, we look forward to what he has to bring to the board
 
 We look forward to the work they will do to help the community grown and thrive moving forward
 
