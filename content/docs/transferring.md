@@ -18,7 +18,7 @@ You'll need:
 
 ## Joining Sous-Chefs
 
-In order to transfer a cookbook into the sous-chefs organization on GitHub you must first become a member of the organization. See [becoming a member](/becoming-a-member/) for information on how to do this yourself.
+In order to transfer a cookbook into the sous-chefs organization on GitHub you must first become a member of the organization. See [becoming a member]({{< ref "becoming-a-member.md" >}}) for information on how to do this yourself.
 
 ## Transferring the code
 
