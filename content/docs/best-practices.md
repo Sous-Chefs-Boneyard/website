@@ -7,12 +7,18 @@ If we're adopting a cookbook and trying to bring it up to scratch, these are lik
 
 ## Platform Support
 
-The majority of our survey userbase uses the following and as such as aim to support these platforms by default:
+We will attempt to support the version of operating systems currently in support except where there is a compelling reason not to.
 
-- Centos 6/7
-- Debian 8/9
-- Ubuntu 16.04/18.04
-- Amazon 1 and 2
+Current major Operating System support lies in the following:
+
+- Centos
+- Ubuntu
+- Redhat
+- Amazon Linux 2
+- Macos
+- Windows (Latest)
+
+Some cookbooks are not designed to support all of these operating systems, to see a full list of supported operating systems please refer to the `kitchen.yml` in the cookbook in question
 
 ## Custom Resources over Attribute Driven
 
@@ -20,7 +26,7 @@ Our cookbooks are application cookbooks, and therefore designed to only manage a
 
 All configurables should be surfaced through a easy to understand, [custom resource](https://docs.chef.io/custom_resources.html) interface.
 
-For example the [postgresql_client_install resource](https://github.com/sous-chefs/postgresql/#postgresql_client_install), surfaces a version atrribute. Which is obvious to the user. Much like a template, or file resource.
+For example the [postgresql_client_install resource](https://github.com/sous-chefs/postgresql/#postgresql_client_install), surfaces a version property. Which is obvious to the user. Much like a template, or file resource.
 
 ```ruby
 postgresql_client_install 'Client install' do
@@ -51,3 +57,7 @@ README.md
   - resource title
   - a table of available properties
   - a set of examples using the resource
+
+## Semvar
+
+Our cookbooks must follow semvar <semvar.org> this allows users to understand what the increments mean and plan accordingly
