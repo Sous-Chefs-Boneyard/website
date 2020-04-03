@@ -15,7 +15,7 @@ Current major Operating System support lies in the following:
 - Ubuntu
 - Redhat
 - Amazon Linux 2
-- Macos
+- macOS
 - Windows (Latest)
 
 Some cookbooks are not designed to support all of these operating systems, to see a full list of supported operating systems please refer to the `kitchen.yml` in the cookbook in question
