@@ -11,7 +11,7 @@ We follow semvar, this is never optional to our cookbooks, and allows you, our c
 
 ## Cookbook Support
 
-We will attempt to support the version of the `chef-client` that chef support unless there is a compelling reason not to, such as:
+We will attempt to support the version of the Chef Infra Client that Chef Software supports unless there is a compelling reason not to, such as:
 
 - Features we require that are only in a later version of the Chef Infra Client
 - Bugs which require a certain version of the Chef Infra Client
