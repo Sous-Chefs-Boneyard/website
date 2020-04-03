@@ -14,7 +14,7 @@ We follow semvar, this is never optional to our cookbooks, and allows you, our c
 We will attempt to support the version of the `chef-client` that chef support unless there is a compelling reason not to, such as:
 
 - Features we require that are only in a later version of the Chef Infra Client
-- Bugs which reqiure a certian version of the chef client
+- Bugs which require a certain version of the Chef Infra Client
 - Ruby versions which are closely tied to Chef Infra Client versions
 
 However as always we wecome pull-requests to extend our support across multiple versions
