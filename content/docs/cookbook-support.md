@@ -17,4 +17,4 @@ We will attempt to support the version of the Chef Infra Client that Chef Softwa
 - Bugs which require a certain version of the Chef Infra Client
 - Ruby versions which are closely tied to Chef Infra Client versions
 
-However as always we wecome pull-requests to extend our support across multiple versions
+However, as always, we welcome pull-requests to extend our support across multiple versions
