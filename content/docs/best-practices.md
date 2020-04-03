@@ -60,4 +60,4 @@ README.md
 
 ## Semvar
 
-Our cookbooks must follow semvar <semvar.org> this allows users to understand what the increments mean and plan accordingly
+Our cookbooks follow semvar guidelines. See <semvar.org> for an overview. Semvar allows allows cookbook consumers to better understand what version increments mean and plan their testing regiment accordingly
