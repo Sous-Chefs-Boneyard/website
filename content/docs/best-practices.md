@@ -7,18 +7,18 @@ If we're adopting a cookbook and trying to bring it up to scratch, these are lik
 
 ## Platform Support
 
-We will attempt to support the version of operating systems currently in support except where there is a compelling reason not to.
+We will attempt to support all operating systems releases currently supported by the OS vendor except where there is a compelling reason not to.
 
-Current major Operating System support lies in the following:
+Current major operating system support lies in the following:
 
 - Centos
 - Ubuntu
 - Redhat
 - Amazon Linux 2
 - macOS
-- Windows (Latest)
+- Windows
 
-Some cookbooks are not designed to support all of these operating systems, to see a full list of supported operating systems please refer to the `kitchen.yml` in the cookbook in question
+Some cookbooks are not designed to support all of these operating systems. For a full list of supported operating systems please refer to the `kitchen.yml` in the cookbook in question
 
 ## Custom Resources over Attribute Driven
 
