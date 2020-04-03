@@ -15,6 +15,6 @@ We will attempt to support the version of the `chef-client` that chef support un
 
 - Features we require that are only in a later version of the chef client
 - Bugs which reqiure a certian version of the chef client
-- Ruby versions which are closely tied to chef version
+- Ruby versions which are closely tied to Chef Infra Client versions
 
 However as always we wecome pull-requests to extend our support across multiple versions
