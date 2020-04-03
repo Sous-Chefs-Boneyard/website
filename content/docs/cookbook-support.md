@@ -5,9 +5,9 @@ date: 2020-04-03T00:00:00+00:00
 
 Cookbook support is a complicated subject based on many variables, however this document should outline expectations in our cookbooks
 
-## Semvar
+## Semver
 
-We follow semvar, this is never optional to our cookbooks, and allows you, our consumers, to understand the change we are making and the potential impact on your environment.
+We follow semver, this is never optional to our cookbooks, and allows you, our consumers, to understand the change we are making and the potential impact on your environment.
 
 ## Cookbook Support
 

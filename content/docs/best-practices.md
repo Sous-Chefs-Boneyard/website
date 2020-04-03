@@ -58,6 +58,6 @@ README.md
   - a table of available properties
   - a set of examples using the resource
 
-## Semvar
+## Semver
 
-Our cookbooks follow semvar guidelines. See <semvar.org> for an overview. Semvar allows allows cookbook consumers to better understand what version increments mean and plan their testing regiment accordingly
+Our cookbooks follow semver guidelines. See [the semver spec](https://semver.org/spec/v2.0.0.html) for an overview. Semver allows allows cookbook consumers to better understand what version increments mean and plan their testing regiment accordingly
