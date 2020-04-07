@@ -6,10 +6,6 @@
   Name = "Best Practices"
   URL = "best-practices"
 
-[membership]
-  Name = "Membership"
-  URL = "membership"
-
 [code-of-conduct]
   Name = "Code of Conduct"
   URL = "code-of-conduct"
@@ -18,26 +14,34 @@
   Name = "Contributing"
   URL = "contributing"
 
-[repository-setup]
-  Name = "Repository Setup"
-  URL = "repository-setup"
-
-[transferring]
-  Name = "Transferring"
-  URL = "transferring"
-
-[releasing-a-cookbook]
-  Name = "Releasing a cookbook"
-  URL = "releasing-a-cookbook"
+[departure]
+  Name = "Departure"
+  URL = "departure"
 
 [licenses]
   Name = "Licenses"
   URL = "licenses"
 
-[departure]
-  Name = "Departure"
-  URL = "departure"
+[membership]
+  Name = "Membership"
+  URL = "membership"
 
 [meetings]
   Name = "Meetings"
   URL = "meetings"
+
+[releasing-a-cookbook]
+  Name = "Releasing a cookbook"
+  URL = "releasing-a-cookbook"
+
+[repository-setup]
+  Name = "Repository Setup"
+  URL = "repository-setup"
+
+[cookbook-support]
+  Name = "Cookbook Support"
+  URL = "cookbook-support"
+
+[transferring]
+  Name = "Transferring"
+  URL = "transferring"
