@@ -1,4 +1,4 @@
-# sous-chefs.org
+# sous-chefs.org website
 
 [![Build Status](https://img.shields.io/circleci/project/github/sous-chefs/website/master.svg)](https://circleci.com/gh/sous-chefs/website)
 [![OpenCollective](https://opencollective.com/sous-chefs/backers/badge.svg)](#backers)
