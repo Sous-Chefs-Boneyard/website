@@ -42,6 +42,10 @@
   Name = "Cookbook Support"
   URL = "cookbook-support"
 
+[managing-cookbooks-at-scale]
+  Name = "Managing Cookbooks at Scale"
+  URL = "managing-cookbooks-at-scale"
+
 [transferring]
   Name = "Transferring"
   URL = "transferring"
