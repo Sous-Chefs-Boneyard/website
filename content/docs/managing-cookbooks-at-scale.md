@@ -11,9 +11,9 @@ We also have all our existing cookbooks (of which there are over 70) and as all 
 
 ## Enter the bot army
 
-We are an industry of DevOps practitioners and as part of that we aim to automate all of our world, and this is no exception. I have personally spent many hours trying to keep all of our files in sync across our repositories.
+We are an industry of DevOps practitioners and as part of that we aim to automate all of our world, and this is no exception. We have all personally spent many hours trying to keep all of our files in sync across our repositories.
 
-To resolve this I have created 3 different bot applications, these are designed to each tackle one problem we had with managing our multitude of cookbooks.
+To resolve this we have created 3 different bot applications, these are designed to each tackle one problem we had with managing our multitude of cookbooks.
 
 ### Github-File-Manager
 
