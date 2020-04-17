@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Sous Chefs</title>
+    <link>https://sous-chefs.org/docs/</link>
+    <description>Recent content in Docs on Sous Chefs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sous-chefs.org/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Managing Cookbooks at Scale</title>
+      <link>https://sous-chefs.org/docs/managing-cookbooks-at-scale/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/managing-cookbooks-at-scale/</guid>
+      <description>Sous-Chefs is a community organisation and we like to think of ourselves as a home for unloved great cookbooks. We are also a place where these cookbooks will always get maintained moving forward.
+While these cookbooks are great, when we typically take over management of the cookbook repos they are not in the best of states, and there is significant work to bring them up to our standards.
+We also have all our existing cookbooks (of which there are over 70) and as our standards change, we need to deploy these changes across all of our repositories.</description>
+    </item>
+    
+    <item>
+      <title>Cookbook Support</title>
+      <link>https://sous-chefs.org/docs/cookbook-support/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/cookbook-support/</guid>
+      <description>Cookbook support is a complicated subject based on many variables, however this document should outline expectations in our cookbooks
+Semver We follow semver, this is never optional to our cookbooks, and allows you, our consumers, to understand the change we are making and the potential impact on your environment.
+Cookbook Support We will attempt to support the version of the Chef Infra Client that Chef Software supports unless there is a compelling reason not to, such as:</description>
+    </item>
+    
+    <item>
+      <title>Community Leaders 2019</title>
+      <link>https://sous-chefs.org/docs/sous-board-2019/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/sous-board-2019/</guid>
+      <description>Thank you all for voting on the board of Sous-Chefs Community Leaders. Voting has now closed and the results are in.
+Farewells We would like to wish our fond farewells to the members of the board who have chosen to step down: Dan and Joseph have been instrumental in Sous-Chefs and will be missed. Some of their great achievements are:
+ The direction and rewrite of resource driven cookbooks that has been a great uptake in the community CI improvements that make releasing cookbooks easy and safe Rewriting the Apache2 cookbook  We wish them all the best and hope that they remain active members of the community</description>
+    </item>
+    
+    <item>
+      <title>Community Leaders Nominations 2019</title>
+      <link>https://sous-chefs.org/docs/community-leaders/</link>
+      <pubDate>Tue, 27 Aug 2019 20:24:17 -0500</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/community-leaders/</guid>
+      <description>Time has rolled around again and we&amp;rsquo;re looking to elect a new set of community leaders. Ideally we&amp;rsquo;re looking for three fresh new faces!
+Tim, Dan and Joseph have been working hard in the background for the past three years and we&amp;rsquo;re looking to shake things up.
+What&amp;rsquo;s Involved You&amp;rsquo;re looking to shape the direction of a great community, you have ideas that can help an OpenSource community grow.
+You like to keep things ticking along, supporting shipping some of the most used cookbooks in the Chef community.</description>
+    </item>
+    
+    <item>
+      <title>Chef License Change</title>
+      <link>https://sous-chefs.org/docs/chef-licensing-change/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/chef-licensing-change/</guid>
+      <description>Sous Chefs, as one of the most active communities around Chef, we felt it would be useful and appropriate to respond to the recent announcements from Chef.
+What does this mean for us For us, this announcement does not have any major changes or impact, we manage and supply community resources to the ecosystem, mainly through cookbooks; Apache2, Redisio, Nginx, Haproxy are the most popular amongst the 50 we maintain. Alongside tooling such as the language-chef plugin for atom, and expect our community tooling to increase in the future.</description>
+    </item>
+    
+    <item>
+      <title>2018 In Review</title>
+      <link>https://sous-chefs.org/docs/year-in-review/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/year-in-review/</guid>
+      <description>Hello, this is Joseph Holsten &amp;amp; Dan Webb from Sous Chefs. We&amp;rsquo;ve had quite a year, so I thought I&amp;rsquo;d summarize the major moments. Here we go!
+2018 was a pretty big year in Sous-Chefs, we started on OpenCollective to raise funds for our core contributors. Many hours go into rewriting, maintaining, and reviewing pull requests. It&amp;rsquo;s a great way to give back to those that empower you and your company!</description>
+    </item>
+    
+    <item>
+      <title>Becoming a Member</title>
+      <link>https://sous-chefs.org/docs/becoming-a-member/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/becoming-a-member/</guid>
+      <description>Join us on the Chef community slack, and say hi!
+  Go to: modules/org_membership/main.tf
+  Click the pencil to &amp;ldquo;Edit this file&amp;rdquo;
+  To the file, add a resource for your github user. If your username was dmr, you would add:
+  resource &amp;#34;github_membership&amp;#34; &amp;#34;dmr&amp;#34; { username = &amp;#34;dmr&amp;#34; role = &amp;#34;member&amp;#34; }   Write a commit message. For the above, a reasonable message might be org_membership: add dmr</description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>https://sous-chefs.org/docs/code-of-conduct/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/code-of-conduct/</guid>
+      <description>Sous Chefs are dedicated to providing a harassment-free cookbook experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of Sous Chefs participants in any form.
+All communication should be appropriate for a professional audience including people of many different backgrounds.
+Be kind to others. Do not insult or put down other community members. Behave professionally. Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for Sous Chefs.</description>
+    </item>
+    
+    <item>
+      <title>Contributing to Sous Chefs</title>
+      <link>https://sous-chefs.org/docs/contributing/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/contributing/</guid>
+      <description>We are glad you want to contribute to a sous-chefs cookbook! The first step is the desire to improve the project.
+Quick-contribute  Create an issue on the GitHub issue tracker (see issues_url in the cookbook&amp;rsquo;s metadata.rb) Link to your patch as a rebased git branch or pull request from the ticket  We regularly review contributions and will get back to you if we have any suggestions or concerns.</description>
+    </item>
+    
+    <item>
+      <title>Cookbook Best Practices</title>
+      <link>https://sous-chefs.org/docs/best-practices/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/best-practices/</guid>
+      <description>If we&amp;rsquo;re adopting a cookbook and trying to bring it up to scratch, these are likely the first things people will expect.
+Platform Support We will attempt to support all operating systems releases currently supported by the OS vendor except where there is a compelling reason not to.
+Current major operating system support lies in the following:
+ Centos Ubuntu Redhat Amazon Linux 2 macOS Windows  Some cookbooks are not designed to support all of these operating systems.</description>
+    </item>
+    
+    <item>
+      <title>Forking to Sous Chefs</title>
+      <link>https://sous-chefs.org/docs/forking/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/forking/</guid>
+      <description>Where it is not possible to contact the existing owner and transfer ownership to the sous-chefs, we can take over maintenance of a codebase by creating a hard fork.
+Adoption Note If adopting an existing cookbook you must use the current name to carry on support for the existing user base. In this case please see cookbook transferring
+Before you begin A hard fork is not the friendliest approach, so we should make no other options are available.</description>
+    </item>
+    
+    <item>
+      <title>Leaving Sous Chefs</title>
+      <link>https://sous-chefs.org/docs/departure/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/departure/</guid>
+      <description>If a maintainer wants to stop or leave, it&amp;rsquo;s cool. We&amp;rsquo;ll gladly point to the project&amp;rsquo;s new home and keep an archive of the old history.
+When the cookbook is for end-of-life tech If a cookbook is for software that&amp;rsquo;s no longer feasible to keep running, like old open source, old commercial stuff, anything that can&amp;rsquo;t be downloaded; then we update the cookbook README.md to mark as deprecated.
+When the cookbook is unused If a cookbook seems entirely unused, we may want to stop claiming it is maintained.</description>
+    </item>
+    
+    <item>
+      <title>Licenses</title>
+      <link>https://sous-chefs.org/docs/licenses/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/licenses/</guid>
+      <description>Table of Contents  Table of Contents Software License  Apache License LICENSE file Apache License Header Apache License in the README   Documentation License  Creative Commons Attribution 4.0 International LICENSE File Creative Commons Attribution 4.0 International Icon    Software License The preferred software license to publish the work of Sous Chefs is Apache License. All published work must be under an Open Source Software license.</description>
+    </item>
+    
+    <item>
+      <title>Members</title>
+      <link>https://sous-chefs.org/docs/membership/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/membership/</guid>
+      <description>Who we are
+Board The board is responsible for those things that are not easily distributed.
+ enforce the code of conduct enforce licenses manage finances control access to community services  This list should remain as small as possible. If it is possible to automate, it should be automated.
+The board reserves the authority to do any lawful act necessary to operate the community, but we&amp;rsquo;ll try to avoid wielding this hammer as much as possible.</description>
+    </item>
+    
+    <item>
+      <title>Sous Chefs Meetings</title>
+      <link>https://sous-chefs.org/docs/meetings/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/meetings/</guid>
+      <description>Sous-Chefs meetings take place on hangouts at 7PM-UTC every Monday of the week.
+Minutes are posted to sous-chefs.org.</description>
+    </item>
+    
+    <item>
+      <title>Transferring to Sous Chefs</title>
+      <link>https://sous-chefs.org/docs/transferring/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/transferring/</guid>
+      <description>Got a cookbook you&amp;rsquo;d like help with? We&amp;rsquo;d love to help!
+Before you begin We need to work with the GitHub repo owner and supermarket cookbook owner. If you aren&amp;rsquo;t this person, let us know and we&amp;rsquo;ll try to contact them. If necessary, fine beverages and chocolate chip cookies may be provided to encourage them to work with us.
+When this is not possible please see forking
+You&amp;rsquo;ll need:
+ name - base cookbook name repo_url - code repository URL supermarket_name - Supermarket cookbook name  Joining Sous-Chefs In order to transfer a cookbook into the sous-chefs organization on GitHub you must first become a member of the organization.</description>
+    </item>
+    
+    <item>
+      <title>Board Nominations</title>
+      <link>https://sous-chefs.org/docs/board-nominations/</link>
+      <pubDate>Sun, 21 May 2017 20:24:17 -0500</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/board-nominations/</guid>
+      <description>We&amp;rsquo;ve reached the time of year to vote in another set of board members.
+What we&amp;rsquo;re looking for This year we&amp;rsquo;re pushing for a more diverse crowd of maintainers and advocates. If you can help fill this stop please apply!
+What&amp;rsquo;s in it for me Fame, glory, riches.
+Are not included, but you will get to shape the direction of Sous-Chefs. Read membership for more information about what the board does.</description>
+    </item>
+    
+    <item>
+      <title>Chef Conf 2017 </title>
+      <link>https://sous-chefs.org/docs/chefconf-2017/</link>
+      <pubDate>Sun, 21 May 2017 20:24:17 -0500</pubDate>
+      
+      <guid>https://sous-chefs.org/docs/chefconf-2017/</guid>
+      <description>Presentation This year we&amp;rsquo;re aiming to spread the word of Sous-Chefs and increase membership, gaining critical mass with the Chef Community is critical to improving the quality and longevity of the project.
+You can see the video (along with a lot more videos from Chef Conf) on YouTube here
+Welcome to new members It&amp;rsquo;s been great to see a new influx of users (too many to mention!) and Chef cookbooks (OSX, Line et al) since ChefConf</description>
+    </item>
+    
+  </channel>
+</rss>

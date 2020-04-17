@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Cookbook Best Practices - Sous Chefs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://sous-chefs.org/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.50fb62964ef97e7315a25ac15fe228450d210e0c6efcaf262b58716118310d4b.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-docs">
+      <a href="/docs/">
+        <span>Docs</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-minutes">
+      <a href="/minutes/">
+        <span>Minutes</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://sous-chefs.org/"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://sous-chefs.org/"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-docs">
+      <a href="/docs/">
+        <span>Docs</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-minutes">
+      <a href="/minutes/">
+        <span>Minutes</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/managing-cookbooks-at-scale/">Managing Cookbooks at Scale</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/cookbook-support/">Cookbook Support</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/sous-board-2019/">Community Leaders 2019</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/community-leaders/">Community Leaders Nominations 2019</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/chef-licensing-change/">Chef License Change</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/year-in-review/">2018 In Review</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/becoming-a-member/">Becoming a Member</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/code-of-conduct/">Code of Conduct</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/contributing/">Contributing to Sous Chefs</a>
+    </li>
+    
+    <li class="active ">
+      <a href="https://sous-chefs.org/docs/best-practices/">Cookbook Best Practices</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/forking/">Forking to Sous Chefs</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/departure/">Leaving Sous Chefs</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/licenses/">Licenses</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/membership/">Members</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/meetings/">Sous Chefs Meetings</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/transferring/">Transferring to Sous Chefs</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/board-nominations/">Board Nominations</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/chefconf-2017/">Chef Conf 2017 </a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">Cookbook Best Practices</h1>
+<div class="content">
+  <p>If we&rsquo;re adopting a cookbook and trying to bring it up to scratch, these are likely the first things people will expect.</p>
+<h2 id="platform-support">Platform Support</h2>
+<p>We will attempt to support all operating systems releases currently supported by the OS vendor except where there is a compelling reason not to.</p>
+<p>Current major operating system support lies in the following:</p>
+<ul>
+<li>Centos</li>
+<li>Ubuntu</li>
+<li>Redhat</li>
+<li>Amazon Linux 2</li>
+<li>macOS</li>
+<li>Windows</li>
+</ul>
+<p>Some cookbooks are not designed to support all of these operating systems. For a full list of supported operating systems please refer to the <code>kitchen.yml</code> in the cookbook in question</p>
+<h2 id="custom-resources-over-attribute-driven">Custom Resources over Attribute Driven</h2>
+<p>Our cookbooks are application cookbooks, and therefore designed to only manage a single type of application at a time. For example, a PostgreSQL server.</p>
+<p>All configurables should be surfaced through a easy to understand, <a href="https://docs.chef.io/custom_resources.html">custom resource</a> interface.</p>
+<p>For example the <a href="https://github.com/sous-chefs/postgresql/#postgresql_client_install">postgresql_client_install resource</a>, surfaces a version property. Which is obvious to the user. Much like a template, or file resource.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">postgresql_client_install <span style="color:#e6db74">&#39;Client install&#39;</span> <span style="color:#66d9ef">do</span>
+  version <span style="color:#e6db74">&#39;9.5&#39;</span>
+<span style="color:#66d9ef">end</span>
+</code></pre></div><h2 id="resource-documentation">Resource Documentation</h2>
+<p>README docuemntation can get very long and hard to navigate. Splitting information down into easily digestable information is crucial in users being able to effectively use the cookbook.</p>
+<p>Example structure:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">README.md
+── documentation
+│   ├── resource_apache2_conf.md
+│   ├── resource_apache2_config.md
+│   ├── resource_apache2_default_site.md
+│   ├── resource_apache2_install.md
+│   ├── resource_apache2_mod.md
+│   ├── resource_apache2_module.md
+│   └── resource_apache2_site.md
+</code></pre></div><ul>
+<li>The README.md should have links to both resource documents</li>
+<li>The resource documentation should have the following headings:
+<ul>
+<li>resource title</li>
+<li>a table of available properties</li>
+<li>a set of examples using the resource</li>
+</ul>
+</li>
+</ul>
+<h2 id="semver">Semver</h2>
+<p>Our cookbooks follow semver guidelines. See <a href="https://semver.org/spec/v2.0.0.html">the semver spec</a> for an overview. Semver allows allows cookbook consumers to better understand what version increments mean and plan their testing regiment accordingly</p>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            <li class="zerostatic"><a href="https://www.zerostatic.io">www.zerostatic.io</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  
+
+  
+  
+  
+    
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130660686-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-130660686-1');
+      </script>
+    
+  
+
+
+</body>
+
+</html>

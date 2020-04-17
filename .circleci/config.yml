@@ -1,0 +1,102 @@
+version: 2.1
+
+workflows:
+  lint:
+    jobs:
+    - website/generate:
+        filters:
+          branches:
+            ignore:
+              - master
+              - gh-pages
+  deploy:
+    jobs:
+    - website/generate:
+        filters: { branches: { only: [master] } }
+    - website/deploy:
+        filters: { branches: { only: [master] } }
+        requires: [website/generate]
+        context: website
+        user_name: Kitchen Porter
+        user_email: board@sous-chefs.org
+        github_organisation: sous-chefs
+        repository: website
+
+orbs:
+  website:
+    executors:
+      hugo:
+        docker: [image: cibuilds/hugo]
+    jobs:
+      generate:
+        executor: hugo
+        parameters:
+          hugo_params:
+            description: Parmeters to pass to the hugo command
+            type: string
+            default: -d public
+        steps:
+          - checkout
+          - run:
+              name: Update submodules
+              command: git submodule sync && git submodule update --init
+          - run:
+              name: Generate site
+              command: hugo -v << parameters.hugo_params >>
+          - persist_to_workspace:
+              root: .
+              paths: [ . ]
+      lint:
+        executor: hugo
+        parameters:
+          build_dir:
+            type: string
+            description: hugo build director
+            default: public
+        environment:
+          HUGO_BUILD_DIR: '<< parameters.build_dir >>'
+        steps:
+          - attach_workspace: { at: . }
+          - run:
+              name: lint generated html
+              command: htmlproofer ${HUGO_BUILD_DIR} --allow-hash-href --check-html --empty-alt-ignore
+      deploy:
+        executor: hugo
+        working_directory: ~/hugo
+        parameters:
+            user_name:
+              description: git user.name
+              type: string
+            user_email:
+              description: git user.email
+              type: string
+            github_organisation:
+              description: Github organisation
+              type: string
+            repository:
+              description: Github repository
+              type: string
+        environment:
+          HUGO_BUILD_DIR: ~/hugo/public
+          HUGO_ENV: production
+          HUGO_BASE_URL: sous-chefs.org
+        steps:
+          - attach_workspace: { at: . }
+          - run:
+              name: Update submodules
+              command: |
+                git submodule sync
+                git submodule update --init
+          - run:
+              name: deploy site
+              command: |
+                cd public
+                git init
+                git config user.name "<< parameters.user_name >>"
+                git config user.email "<<parameters.user_email >>"
+
+                cp ../CNAME .
+                cp -R ../.circleci .
+                git add .
+                git commit -m "Deploy from CircleCI ${CIRCLE_SHA1}"
+                git push --force --quiet "https://${GITHUB_TOKEN}@github.com/<< parameters.github_organisation >>/<< parameters.repository >>.git" master:gh-pages

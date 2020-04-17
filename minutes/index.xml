@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minutes on Sous Chefs</title>
+    <link>https://sous-chefs.org/minutes/</link>
+    <description>Recent content in Minutes on Sous Chefs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Feb 2019 20:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sous-chefs.org/minutes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019-02-25 Sous-Chefs Meeting</title>
+      <link>https://sous-chefs.org/minutes/2019-02-25/</link>
+      <pubDate>Mon, 25 Feb 2019 20:00:00 +0000</pubDate>
+      
+      <guid>https://sous-chefs.org/minutes/2019-02-25/</guid>
+      <description>apache2 release This week we released Apache2!
+We&amp;rsquo;re looking for user configurations to test backwards compatability.
+nginx transfer Nginx have been transferred to the Sous-Chefs this week.
+Nginx is going to be modelled after apache2 style
+AOB Best Practises Update of our best practices:
+ Low level of abstractions, it should be as close to the documentation as possible Opinionated Don&amp;rsquo;t make the simple things hard to do, just to meet a niche use case Cookbooks are made to serve the 95% use case Low maintenance overhead  Thursdays PR Help Session  Enable people with little experience to get up to speed Help people open PRs or perspective Catch-up with inflight PRs Follow the thought process of reworking cookbooks  Bone Yard We&amp;rsquo;re looking to start a Boneyard similar to Chef Boneyard, for Sous-chefs cookbooks that we don&amp;rsquo;t actively maintain.</description>
+    </item>
+    
+    <item>
+      <title>2019-02-18 Sous-Chefs Meeting</title>
+      <link>https://sous-chefs.org/minutes/2019-02-18/</link>
+      <pubDate>Mon, 18 Feb 2019 20:00:00 +0000</pubDate>
+      
+      <guid>https://sous-chefs.org/minutes/2019-02-18/</guid>
+      <description>Best Practices Sous-Chefs Best practises has been released. Noting common supported platforms, recommended patterns for Sous-Chefs cookbooks.
+HAProxy 6.3.0 has been released  Add haproxy_cache resource for caching small objects with HAProxy version &amp;gt;=1.8 Expand integration test coverage to all stable and LTS HAProxy versions Documentation - clarify extra_options hash string =&amp;gt; array option Documentation - Clarify the supported platforms  Control Groups Control groups is currently in need of a rewrite, but we need use cases to develop a good set of interfaces for the custom resources.</description>
+    </item>
+    
+    <item>
+      <title>2018-12-05 Release Announcements</title>
+      <link>https://sous-chefs.org/minutes/2018-12-05-releases/</link>
+      <pubDate>Wed, 05 Dec 2018 21:34:38 +0000</pubDate>
+      
+      <guid>https://sous-chefs.org/minutes/2018-12-05-releases/</guid>
+      <description>Hello, this is Joseph Holsten from Sous Chefs. This is the first time I&amp;rsquo;ve put together a cookbook releases announcement, so please tell me what I could make better. Or stop doing terribly!
+redisio 3.0.0 - Major release &amp;amp; new maintainers 3.0.0 - 2018-11-27  This cookbook is now maintained by the Sous Chefs. If you&amp;rsquo;re interested in helping with maintenance or learning more check out https://sous-chefs.org/. Thank you Brian Bianco for the work you&amp;rsquo;ve done over the years on this cookbook.</description>
+    </item>
+    
+    <item>
+      <title>2018-09-24 Sous-Chefs Meeting</title>
+      <link>https://sous-chefs.org/minutes/2018-09-24/</link>
+      <pubDate>Mon, 24 Sep 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://sous-chefs.org/minutes/2018-09-24/</guid>
+      <description>Where https://chefcommunity.slack.com/messages/sous-chefs
+Agenda Development News  postgresql sc-nxlog AOB SC-NXlog Vault &amp;amp; Consul Cookbooks  </description>
+    </item>
+    
+    <item>
+      <title>2018-09-17 Sous-Chefs Meeting</title>
+      <link>https://sous-chefs.org/minutes/2018-09-17/</link>
+      <pubDate>Mon, 17 Sep 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://sous-chefs.org/minutes/2018-09-17/</guid>
+      <description>Where https://chefcommunity.slack.com/messages/sous-chefs
+Agenda Development News  CircleCI update https://github.com/sous-chefs/postgresql/pull/559 Github Terraform apache2 line sc-nxlog AOB Vault  Github Terraform  CI pipeline needs feedback to users. Ben Abrams suggested using Atlantis. Needs codeowners file  SC-NXlog  Needs releasing soon..!  Vault &amp;amp; Consul Cookbooks  Needs to be unpoised  </description>
+    </item>
+    
+    <item>
+      <title>2018-09-03 Sous-Chefs Meeting</title>
+      <link>https://sous-chefs.org/minutes/2018-09-03/</link>
+      <pubDate>Mon, 03 Sep 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://sous-chefs.org/minutes/2018-09-03/</guid>
+      <description>Where https://chefcommunity.slack.com/messages/sous-chefs
+Agenda Development News   CircleCI update https://github.com/sous-chefs/postgresql/pull/559
+  apache2
+  postgresql
+  openvpn
+  haproxy
+  graphite
+  snort
+  redisio (external)
+  foodcritic (external)
+  Projects website  sc-generator sc-foodcritic-rules  Actions </description>
+    </item>
+    
+    <item>
+      <title>2017-05-08 Sous-Chefs Meeting</title>
+      <link>https://sous-chefs.org/minutes/2017-05-08/</link>
+      <pubDate>Mon, 08 May 2017 20:00:00 +0000</pubDate>
+      
+      <guid>https://sous-chefs.org/minutes/2017-05-08/</guid>
+      <description>Where https://chefcommunity.slack.com/messages/sous-chefs
+Old Business Agenda Development News  apache2 postgresql openvpn haproxy graphite sc-mongodb snort redisio (external) foodcritic (external)  Projects website  sc-generator sc-foodcritic-rules  Minutes  redisio: should be making a release in the next day or too which a LARGE amount of updates sc-mongodb: still working on cluster testing in test-kitchen haproxy: review of OS specific issues in progress haproxy haproxy: 4.2.0 released Actions  Actions </description>
+    </item>
+    
+  </channel>
+</rss>

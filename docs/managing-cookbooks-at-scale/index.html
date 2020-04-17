@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Managing Cookbooks at Scale - Sous Chefs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://sous-chefs.org/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.50fb62964ef97e7315a25ac15fe228450d210e0c6efcaf262b58716118310d4b.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-docs">
+      <a href="/docs/">
+        <span>Docs</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-minutes">
+      <a href="/minutes/">
+        <span>Minutes</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://sous-chefs.org/"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://sous-chefs.org/"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-docs">
+      <a href="/docs/">
+        <span>Docs</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-minutes">
+      <a href="/minutes/">
+        <span>Minutes</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
+    
+    <li class="active ">
+      <a href="https://sous-chefs.org/docs/managing-cookbooks-at-scale/">Managing Cookbooks at Scale</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/cookbook-support/">Cookbook Support</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/sous-board-2019/">Community Leaders 2019</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/community-leaders/">Community Leaders Nominations 2019</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/chef-licensing-change/">Chef License Change</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/year-in-review/">2018 In Review</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/becoming-a-member/">Becoming a Member</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/code-of-conduct/">Code of Conduct</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/contributing/">Contributing to Sous Chefs</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/best-practices/">Cookbook Best Practices</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/forking/">Forking to Sous Chefs</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/departure/">Leaving Sous Chefs</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/licenses/">Licenses</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/membership/">Members</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/meetings/">Sous Chefs Meetings</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/transferring/">Transferring to Sous Chefs</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/board-nominations/">Board Nominations</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/docs/chefconf-2017/">Chef Conf 2017 </a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">Managing Cookbooks at Scale</h1>
+<div class="content">
+  <p><a href="http://sous-chefs.org/">Sous-Chefs</a> is a community organisation and we like to think of ourselves as a home for unloved great cookbooks. We are also a place where these cookbooks will always get maintained moving forward.</p>
+<p>While these cookbooks are great, when we typically take over management of the cookbook repos they are not in the best of states, and there is significant work to bring them up to our standards.</p>
+<p>We also have all our existing cookbooks (of which there are over 70) and as our standards change, we need to deploy these changes across all of our repositories.</p>
+<h2 id="enter-the-bot-army">Enter the bot army</h2>
+<p>We are an industry of DevOps practitioners and as part of that we aim to automate all of our world. This is no exception. All of the sous-chefs have personally spent many hours trying to keep all of our files in sync across our repositories, but that is not a sustainable model.</p>
+<p>To resolve this, we have created 3 different bot applications that are designed to each tackle one problem we had with managing our multitude of cookbooks.</p>
+<h3 id="github-file-manager">Github-File-Manager</h3>
+<p><a href="https://github.com/xorima/Github-File-Manager">Github File Manager</a> is designed to ensure static files which do not change are consistent across all Repositories. It uses a source repository and github topics to work out which repositories need these files to be put into them. They are issued as a pull request and allow us to start having the important conversations about what our files should actually look like, rather than spending all the time trying to keep them the same.</p>
+<p>For us our source repository is <a href="https://github.com/sous-chefs/repo-management/tree/master/">Repo Management</a></p>
+<p>In here we look in the path <code>standardfiles/cookbook</code> and ensure these files are identical in the discovered repositories. If the are not, the bot will issue pull requests to update the files</p>
+<p>Examples of the files we manage:</p>
+<ul>
+<li><a href="https://github.com/danger/danger">Dangerfile</a></li>
+<li><a href="https://github.com/features/actions">Github Actions</a></li>
+<li><a href="https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file">Community files</a>, such as Code of Conduct</li>
+</ul>
+<h3 id="github-cookstyle-runner">Github-Cookstyle-Runner</h3>
+<p><a href="https://github.com/xorima/Github-Cookstyle-Runner">Github Cookstyle Runner</a> was created to solve the problem all organizations with large amounts of cookbooks have.</p>
+<blockquote>
+<p>I know I am meant to run cookstyle, but I don&rsquo;t have time to.</p>
+</blockquote>
+<p>This little bot will find github repositories by topic and run <code>cookstyle</code> against them, creating a detailed pull request if changes are needed. <a href="https://github.com/sous-chefs/java/pull/606">example</a>.</p>
+<p>As an organization we were very bad at keeping up to date with <code>cookstyle</code> fixes. These fixes are important because they can unblock you, our users, from having failures on new versions of Chef Infra, or just identify a mistake we have made and just didn&rsquo;t catch.</p>
+<h3 id="github-label-manager">Github-Label-Manager</h3>
+<p><a href="https://github.com/xorima/Github-Label-Manager">Github Label Manager</a> is the final of the trio of bot applications we use to manage our repositories today.  Simply put, it reads <code>json</code> files from a source repository, and ensures those labels (and optionally only those labels) exist on our cookbooks.</p>
+<p>Now we could also have done this with our <a href="https://github.com/sous-chefs/terraform-github-org">Terraform Github Org</a> however we found in the past that this caused us to run out of github API calls far too quickly when needing to make multiple terraform changes.</p>
+<h2 id="running-them">Running them</h2>
+<p>Automation is at the heart of every solution in this industry, so it’s not a surprise that a docker image was the best option for a deployable artefact.</p>
+<p>We decided to use kubernetes for deployment purposes simply for the fact that as an org we rely on contributors to give up their free time. The less time we are burning on build systems, bots, and release systems, the more time we have to do what we exist for: high quality cookbooks.</p>
+<p>With the first run this week across <a href="https://github.com/sous-chefs">sous-chefs</a> and <a href="https://github.com/chef-cookbooks">chef-cookbooks</a> orgs we opened over 300 pull requests and of those 257 have already been merged. Imagine how much time that saves!</p>
+<h2 id="future-of-the-bot-and-sous-chefs">Future of the Bot and Sous-Chefs</h2>
+<p>These bots are already critical to our management infrastructure, and we have many plans for their future.</p>
+<ul>
+<li>The apps themselves were written in a hackathon manner, which means almost no automated testing. Getting good testing is essential going forward.</li>
+<li>Extending the File-Manager to handle deletion of files and introducing a tempalting engine to build out files as we need; our READMEs, as an example.</li>
+<li>An automatic release system for our cookbooks, so one day a simple merge will automatically push these changes to the Supermarket, giving us more time to code and less time on maintenance.</li>
+<li>Migrating the release of these applications into a hart package instead of the current system of static kubernetes manifests</li>
+</ul>
+<p>As always we are a group of volunteers and our doors are always open. If you can help with any of this or want to get involved in some of the cookbooks we help to maintain, you can find us on the <a href="https://community-slack.chef.io/">Chef Community Slack</a> the the <code>#sous-chefs</code> channel.</p>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            <li class="zerostatic"><a href="https://www.zerostatic.io">www.zerostatic.io</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  
+
+  
+  
+  
+    
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130660686-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-130660686-1');
+      </script>
+    
+  
+
+
+</body>
+
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>2018-12-05 Release Announcements - Sous Chefs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://sous-chefs.org/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.50fb62964ef97e7315a25ac15fe228450d210e0c6efcaf262b58716118310d4b.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-docs">
+      <a href="/docs/">
+        <span>Docs</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-minutes">
+      <a href="/minutes/">
+        <span>Minutes</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://sous-chefs.org/"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://sous-chefs.org/"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-docs">
+      <a href="/docs/">
+        <span>Docs</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-minutes">
+      <a href="/minutes/">
+        <span>Minutes</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Minutes</h4>
+  <ul>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/minutes/2019-02-25/">2019-02-25 Sous-Chefs Meeting</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/minutes/2019-02-18/">2019-02-18 Sous-Chefs Meeting</a>
+    </li>
+    
+    <li class="active ">
+      <a href="https://sous-chefs.org/minutes/2018-12-05-releases/">2018-12-05 Release Announcements</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/minutes/2018-09-24/">2018-09-24 Sous-Chefs Meeting</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/minutes/2018-09-17/">2018-09-17 Sous-Chefs Meeting</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/minutes/2018-09-03/">2018-09-03 Sous-Chefs Meeting</a>
+    </li>
+    
+    <li class="">
+      <a href="https://sous-chefs.org/minutes/2017-05-08/">2017-05-08 Sous-Chefs Meeting</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">2018-12-05 Release Announcements</h1>
+<div class="content">
+  <p>Hello, this is Joseph Holsten from Sous Chefs. This is the first time I&rsquo;ve put together a cookbook releases announcement, so please tell me what I could make better. Or stop doing terribly!</p>
+<h2 id="redisiohttpssupermarketchefiocookbooksredisio-300---major-release--new-maintainers"><a href="https://supermarket.chef.io/cookbooks/redisio"><code>redisio</code></a> 3.0.0 - Major release &amp; new maintainers</h2>
+<h3 id="300httpsgithubcomsous-chefsredisiocomparev272v300---2018-11-27"><a href="https://github.com/sous-chefs/redisio/compare/v2.7.2...v3.0.0">3.0.0</a> - 2018-11-27</h3>
+<ul>
+<li>This cookbook is now maintained by the Sous Chefs. If you&rsquo;re interested in helping with maintenance or learning more check out <a href="https://sous-chefs.org/">https://sous-chefs.org/</a>. Thank you Brian Bianco for the work you&rsquo;ve done over the years on this cookbook. We&rsquo;ll be sure to take good care of it.</li>
+<li>This cookbook now requires Chef 13 or later</li>
+<li>Incompatibilities with the latest selinux_policy cookbook have been resolved by using Chef&rsquo;s built in selinux helpers</li>
+<li>All Chefstyle warnings have been resolved</li>
+<li>Contributing.md and CODE_OF_CONDUCT.md files have been added</li>
+<li>The build_essential resource is now directly used so that the built in resource in Chef 14+ can be used. This increases the required build-essential cookbook to 5.0+</li>
+<li>Duplicate dependencies in the Berksfile have been removed</li>
+<li>The chefignore file has been updated to prevent more unnecessary files from being uploaded to the chef server</li>
+<li>Data bags are now loaded with the data_bag_item helper instead of Chef::EncryptedDataBagItem.load directly</li>
+<li>Testing has been updated to use Delivery Local Mode which is built into ChefDK. The legacy Rakefile, Vagrantfile, Thorfile, and Cheffile have been removed</li>
+<li>Platforms in Test Kitchen configurations have been updated and dokken images are now used in dokken</li>
+</ul>
+<h2 id="sc-chrubyhttpssupermarketchefiocookbookssc-chruby-001---initial-release"><a href="https://supermarket.chef.io/cookbooks/sc-chruby"><code>sc-chruby</code></a> 0.0.1 - initial release</h2>
+<ul>
+<li>Includes a resource to install <a href="https://github.com/postmodern/chruby"><code>chruby</code></a>.</li>
+</ul>
+<h2 id="selinux_policyhttpssupermarketchefiocookbooksselinux_policy-232---fixes--cleanup"><a href="https://supermarket.chef.io/cookbooks/selinux_policy"><code>selinux_policy</code></a> 2.3.2 - fixes &amp; cleanup</h2>
+<h3 id="232httpsgithubcomsous-chefsselinux_policycomparev231v232---2018-11-29"><a href="https://github.com/sous-chefs/selinux_policy/compare/v2.3.1...v2.3.2">2.3.2</a> - 2018-11-29</h3>
+<ul>
+<li>Cache which helper method calls</li>
+</ul>
+<h3 id="231httpsgithubcomsous-chefsselinux_policycomparev230v231---2018-11-29"><a href="https://github.com/sous-chefs/selinux_policy/compare/v2.3.0...v2.3.1">2.3.1</a> - 2018-11-29</h3>
+<h4 id="fixed">Fixed</h4>
+<ul>
+<li>Use <code>chef/mixin/which</code> to locate selinux binaries. Fixes <a href="https://github.com/sous-chefs/selinux_policy/issues/85">#85</a> &amp; <a href="https://github.com/sous-chefs/selinux_policy/issues/93">#93</a></li>
+</ul>
+<h3 id="230httpsgithubcomsous-chefsselinux_policycomparev220v230---2018-11-27"><a href="https://github.com/sous-chefs/selinux_policy/compare/v2.2.0...v2.3.0">2.3.0</a> - 2018-11-27</h3>
+<ul>
+<li>Further fixes for the earlier refactoring</li>
+<li>Repair CI jobs</li>
+</ul>
+<h2 id="grafanahttpssupermarketchefiocookbooksgrafana-301---platform-updates"><a href="https://supermarket.chef.io/cookbooks/grafana"><code>grafana</code></a> 3.0.1 - platform updates</h2>
+<h3 id="301httpsgithubcomsous-chefsgrafanacomparev300v301---2018-11-27"><a href="https://github.com/sous-chefs/grafana/compare/v3.0.0...v3.0.1">3.0.1</a> - 2018-11-27</h3>
+<ul>
+<li>Add support for amazon. Chef 13 and later identifies platform_family as &lsquo;amazon&rsquo;: <a href="https://docs.chef.io/deprecations_ohai_amazon_linux.html">https://docs.chef.io/deprecations_ohai_amazon_linux.html</a></li>
+<li>Update to Grafana 5.3.4</li>
+<li>Drop support for Ubuntu 14.04</li>
+<li>Add support for Ubuntu 18.04</li>
+</ul>
+<p>Thanks for sticking with me, that wasn&rsquo;t too bad, was it? See you next week (but probably on monday instead of wednesday)!</p>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            <li class="zerostatic"><a href="https://www.zerostatic.io">www.zerostatic.io</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  
+
+  
+  
+  
+    
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130660686-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-130660686-1');
+      </script>
+    
+  
+
+
+</body>
+
+</html>
