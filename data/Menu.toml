@@ -46,6 +46,10 @@
   Name = "Managing Cookbooks at Scale"
   URL = "managing-cookbooks-at-scale"
 
+[auto-releasing-sous-cookbooks]
+  Name = "Auto Releasing Sous-Chefs Cookbooks"
+  URL = "auto-releasing-sous-cookbooks"
+
 [transferring]
   Name = "Transferring"
   URL = "transferring"
