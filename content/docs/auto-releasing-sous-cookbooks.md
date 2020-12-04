@@ -73,7 +73,7 @@ The results of this check are published back as a status check against the PR, a
 
 ## Slack Notifier
 
-[Deployment Status Slack Notifier](https://github.com/Xorima/deployment_status_slack_notifier) runs when a [Deployment Status](https://docs.github.com/en/free-pro-team@latest/rest/reference/repos#list-deployment-statuses) is updated to Success of Failure. It then route the message to the [Chef Community Slack](https://community-slack.chef.io/). It gets the release notes from the payload of the deployment and posts them to `#Sous-Chefs` and `#Anouncements`
+[Deployment Status Slack Notifier](https://github.com/Xorima/deployment_status_slack_notifier) runs when a [Deployment Status](https://docs.github.com/en/free-pro-team@latest/rest/reference/repos#list-deployment-statuses) is updated to Success of Failure. It then route the message to the [Chef Community Slack](https://community-slack.chef.io/). It gets the release notes from the payload of the deployment and posts them to `#Sous-Chefs` and `#Announcements`
 
 ## Future of the Automation and Sous-Chefs
 
