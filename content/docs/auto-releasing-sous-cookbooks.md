@@ -15,7 +15,7 @@ Earlier in the year we build the [Xorimabot backend suite](https://sous-chefs.or
 
 We now have cookbooks which are constantly getting updated but moved onto the next problem, releasing these is a manual process which takes time from our various contributors (Which normally is [Ramereth](https://github.com/Ramereth)).
 
-Here we truely believe all members of the community should be able to release cookbooks as long as the normal checks (CI, Review) are passed so we did what any DevOps team would do, we built automation.
+Here we truly believe all members of the community should be able to release cookbooks as long as the normal checks (CI, Review) are passed so we did what any DevOps team would do, we built automation.
 
 ### Architecture
 
