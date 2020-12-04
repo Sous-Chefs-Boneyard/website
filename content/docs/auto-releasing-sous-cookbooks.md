@@ -19,7 +19,7 @@ Here we truely believe all members of the community should be able to release co
 
 ### Architecture
 
-We started to partition the problem into smaller parts, below you can see the architecute we came up with in the end.
+We started to partition the problem into smaller parts, below you can see the architecture we came up with in the end.
 These applications currently run on Kubernetes, the aim is to migrate them to AWS Lambda simply due to the costs of running this solution. If you would like to aid us with covering the costs of sous-chefs donations would be welcome in our [Open Collective](https://opencollective.com/sous-chefs)
 
 ![Sous-Chefs auto release architecture](../images/automation-architecture.png)
