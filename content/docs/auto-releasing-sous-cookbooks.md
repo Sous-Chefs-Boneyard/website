@@ -24,7 +24,7 @@ These applications currently run on Kubernetes, the aim is to migrate them to AW
 
 ![Sous-Chefs auto release architecture](../images/automation-architecture.png)
 
-In this architecture we have applications that cover the various problems we forsaw, these are covered in more detail below.
+In this architecture we have applications that cover the various problems we foresaw, these are covered in more detail below.
 These applications uses github`s webhooks and APIs to run the applications automatically, we also enforce [HMAC secrets](https://docs.github.com/en/free-pro-team@latest/developers/webhooks-and-events/securing-your-webhooks) for additional security
 
 ## Label Validator
