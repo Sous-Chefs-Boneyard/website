@@ -47,7 +47,7 @@
   URL = "managing-cookbooks-at-scale"
 
 [auto-releasing-sous-cookbooks]
-  Name = "Auto Releasing Sous-Chefs Cookbooks"
+  Name = "Auto Releasing Sous Cookbooks"
   URL = "auto-releasing-sous-cookbooks"
 
 [transferring]

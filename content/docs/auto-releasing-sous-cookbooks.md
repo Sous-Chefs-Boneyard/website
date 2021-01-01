@@ -1,6 +1,6 @@
 ---
 title: 'Auto Releasing Sous-Chefs Cookbooks'
-date: "2020-11-28T00:00:00-00:00"
+date: "2021-01-01T00:00:00-00:00"
 ---
 
 [Sous-Chefs](http://sous-chefs.org/) is a [community funded](https://opencollective.com/sous-chefs) organisation and we like to think of ourselves as a home for unloved great cookbooks. We are also a place where these cookbooks will always get maintained moving forward.
