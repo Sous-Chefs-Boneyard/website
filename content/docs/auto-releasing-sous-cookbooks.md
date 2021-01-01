@@ -22,7 +22,7 @@ Here we truly believe all members of the community should be able to release coo
 We started to partition the problem into smaller parts, below you can see the architecture we came up with in the end.
 These applications currently run on Kubernetes, the aim is to migrate them to AWS Lambda simply due to the costs of running this solution. If you would like to aid us with covering the costs of sous-chefs donations would be welcome in our [Open Collective](https://opencollective.com/sous-chefs)
 
-![Sous-Chefs auto release architecture](../images/automation-architecture.png)
+![Sous-Chefs auto release architecture](/images/automation-architecture.png)
 
 In this architecture we have applications that cover the various problems we foresaw, these are covered in more detail below.
 These applications uses github`s webhooks and APIs to run the applications automatically, we also enforce [HMAC secrets](https://docs.github.com/en/free-pro-team@latest/developers/webhooks-and-events/securing-your-webhooks) for additional security
