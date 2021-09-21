@@ -26,7 +26,7 @@ orbs:
   website:
     executors:
       hugo:
-        docker: [image: cibuilds/hugo]
+        docker: [image: cibuilds/hugo:0.88.1]
     jobs:
       generate:
         executor: hugo
