@@ -5,7 +5,7 @@ date: 2018-11-28T15:14:39+10:00
 
 Join us on the [Chef community slack](https://chefcommunity.slack.com/messages/sous-chefs/), and say hi!
 
-- Go to: [`modules/org_membership/main.tf`](https://github.com/sous-chefs/terraform-github-org/blob/master/modules/org_membership/main.tf)
+- Go to: [`modules/org_membership/main.tf`](https://github.com/sous-chefs/terraform-github-org/blob/main/modules/org_membership/main.tf)
 
 - Click the pencil to "Edit this file"
 

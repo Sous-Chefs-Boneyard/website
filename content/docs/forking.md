@@ -25,7 +25,7 @@ Sous Chefs should not make a release until we know whether we get a transfer (an
 
 You should rename using the following naming schema:
 
-- Cookbook: `mongodb` → `sc-mongodb` as per [RFC-78](https://github.com/chef/chef-rfc/blob/master/rfc078-supermarket-prefix.md)
+- Cookbook: `mongodb` → `sc-mongodb` as per [RFC-78](https://github.com/chef/chef-rfc/blob/main/rfc078-supermarket-prefix.md)
 - Repository: `sc-mongodb`
 
 ### Use of provides to maintain resource compatibility
