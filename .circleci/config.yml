@@ -7,14 +7,14 @@ workflows:
         filters:
           branches:
             ignore:
-              - master
+              - main
               - gh-pages
   deploy:
     jobs:
     - website/generate:
-        filters: { branches: { only: [master] } }
+        filters: { branches: { only: [main] } }
     - website/deploy:
-        filters: { branches: { only: [master] } }
+        filters: { branches: { only: [main] } }
         requires: [website/generate]
         context: website
         user_name: Kitchen Porter
@@ -26,7 +26,7 @@ orbs:
   website:
     executors:
       hugo:
-        docker: [image: cibuilds/hugo]
+        docker: [image: cibuilds/hugo:0.88.1]
     jobs:
       generate:
         executor: hugo
@@ -99,4 +99,4 @@ orbs:
                 cp -R ../.circleci .
                 git add .
                 git commit -m "Deploy from CircleCI ${CIRCLE_SHA1}"
-                git push --force --quiet "https://${GITHUB_TOKEN}@github.com/<< parameters.github_organisation >>/<< parameters.repository >>.git" master:gh-pages
+                git push --force --quiet "https://${GITHUB_TOKEN}@github.com/<< parameters.github_organisation >>/<< parameters.repository >>.git" main:gh-pages

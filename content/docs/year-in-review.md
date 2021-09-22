@@ -11,7 +11,7 @@ We moved our cookbook testing from TravisCI to CircleCI accross the board, for r
 
 ## Major/New Releases
 
-- [`Postgresql`](https://github.com/sous-chefs/postgresql/blob/master/CHANGELOG.md) - This was the biggest release of the year, Completely rewritten with custom resources and a full unit and functional test suite. ([@damacus](https://github.com/damacus)/[@martinisoft](https://github.com/martinisoft))
+- [`Postgresql`](https://github.com/sous-chefs/postgresql/blob/main/CHANGELOG.md) - This was the biggest release of the year, Completely rewritten with custom resources and a full unit and functional test suite. ([@damacus](https://github.com/damacus)/[@martinisoft](https://github.com/martinisoft))
 - [`Redisio`](https://supermarket.chef.io/cookbooks/redisio) - Major release & new maintainers! ([@tas50](https://github.com/tas50)/[@majormoses](https://github.com/majormoses)/[@shoekstra](https://github.com/shoekstra))
 - [`vscode`](https://supermarket.chef.io/cookbooks/sc_vscode) - First version of the [vscode cookbook](https://github.com/sous-chefs/vscode) was released by ([@Xorima](https://github.com/Xorima))
 - [`sc-chruby`](https://supermarket.chef.io/cookbooks/sc-chruby) Released late in 2018 by [@damacus](https://github.com/damacus)
@@ -42,7 +42,7 @@ The following cookbooks are currently underloved, but with a small number of com
 Both the `sysctl` and `swap` cookbooks are now included in Chef 14!
 
 - [Chef 14 Release note](https://docs.chef.io/release_notes.html#new-resources)
-- [Chef 14 CHANGELOG](https://github.com/chef/chef/blob/master/CHANGELOG.md#v140190-2018-04-03)
+- [Chef 14 CHANGELOG](https://github.com/chef/chef/blob/main/CHANGELOG.md#v140190-2018-04-03)
 
 ## Deprecated cookbooks
 

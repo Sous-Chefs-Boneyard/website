@@ -19,7 +19,7 @@ To resolve this, we have created 3 different bot applications that are designed 
 
 [Github File Manager](https://github.com/xorima/Github-File-Manager) is designed to ensure static files which do not change are consistent across all Repositories. It uses a source repository and github topics to work out which repositories need these files to be put into them. They are issued as a pull request and allow us to start having the important conversations about what our files should actually look like, rather than spending all the time trying to keep them the same.
 
-For us our source repository is [Repo Management](https://github.com/sous-chefs/repo-management/tree/master/)
+For us our source repository is [Repo Management](https://github.com/sous-chefs/repo-management/tree/main/)
 
 In here we look in the path `standardfiles/cookbook` and ensure these files are identical in the discovered repositories. If the are not, the bot will issue pull requests to update the files
 
@@ -61,4 +61,4 @@ These bots are already critical to our management infrastructure, and we have ma
 - An automatic release system for our cookbooks, so one day a simple merge will automatically push these changes to the Supermarket, giving us more time to code and less time on maintenance.
 - Migrating the release of these applications into a hart package instead of the current system of static kubernetes manifests
 
-As always we are a group of volunteers and our doors are always open. If you can help with any of this or want to get involved in some of the cookbooks we help to maintain, you can find us on the [Chef Community Slack](https://community-slack.chef.io/) the the `#sous-chefs` channel. 
+As always we are a group of volunteers and our doors are always open. If you can help with any of this or want to get involved in some of the cookbooks we help to maintain, you can find us on the [Chef Community Slack](https://community-slack.chef.io/) the the `#sous-chefs` channel.

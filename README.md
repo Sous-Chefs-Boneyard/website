@@ -1,6 +1,6 @@
 # sous-chefs.org website
 
-[![Build Status](https://img.shields.io/circleci/project/github/sous-chefs/website/master.svg)](https://circleci.com/gh/sous-chefs/website)
+[![Build Status](https://img.shields.io/circleci/project/github/sous-chefs/website/main.svg)](https://circleci.com/gh/sous-chefs/website)
 [![OpenCollective](https://opencollective.com/sous-chefs/backers/badge.svg)](#backers)
 [![OpenCollective](https://opencollective.com/sous-chefs/sponsors/badge.svg)](#sponsors)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -10,7 +10,7 @@ The website is created using the static site generator, [Hugo](https://gohugo.io
 ## Development
 
 1. Install Hugo for your platform according to the [instructions](http://gohugo.io/overview/installing/)
-2. Create a feature branch to work on based off of `master`
+2. Create a feature branch to work on based off of `main`
 3. Clone the website code and start the development server. This will run a local hugo server that watches for changes to the source files. There will be a section in the output showing which port the site is served on (typically `http://localhost:1313`):
 
     ```bash

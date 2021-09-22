@@ -9,7 +9,7 @@ theme = "hugo-whisper-theme"
   homepage_button_link = '/docs'
   homepage_button_text = 'Read The Docs'
   google_analytics_id = "UA-130660686-1"
-  mainSections = ["minutes","docs"]
+  # mainSections = ["minutes","docs"]
 
 [params.homepage_meta_tags]
     meta_description = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
@@ -28,13 +28,13 @@ theme = "hugo-whisper-theme"
     url = "/"
     weight = 1
 
-[[menu.main]]
-    name = "Docs"
-    url = "/docs/"
-    weight = 2
+# [[menu.main]]
+#     name = "Docs"
+#     url = "/docs/"
+#     weight = 2
 
-[[menu.main]]
-    name = "Minutes"
-    url = "/minutes/"
-    weight = 3
+# [[menu.main]]
+#     name = "Minutes"
+#     url = "/minutes/"
+#     weight = 3
 
