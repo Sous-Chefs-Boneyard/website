@@ -90,11 +90,11 @@ orbs:
               name: deploy site
               command: |
                 cd public
-                git config --global init.defaultBranch gh-pages
                 git init
                 git config user.name "<< parameters.user_name >>"
                 git config user.email "<<parameters.user_email >>"
 
+                git switch -c gh-pages
                 cp ../CNAME .
                 cp -R ../.circleci .
                 git add .
