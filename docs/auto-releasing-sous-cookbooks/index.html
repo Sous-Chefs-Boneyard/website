@@ -1,0 +1,201 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<title>Auto Releasing Sous-Chefs Cookbooks - Sous Chefs</title>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel=icon href=https://sous-chefs.org/favicon.png>
+<link rel=stylesheet href=/css/style.min.6719d72e323121369d5caeb4264b95d8a63cf1deaab029da67602fe5a046e0a4.css>
+</head>
+<body class="page page-default-single">
+<div id=main-menu-mobile class=main-menu-mobile>
+<ul>
+<li class=menu-item-home>
+<a href=/>
+<span>Home</span>
+</a>
+</li>
+</ul>
+</div>
+<div class=wrapper>
+<div class=header>
+<div class=container>
+<div class=logo>
+<a href=https://sous-chefs.org/><img alt=Logo src=/images/logo.png></a>
+</div>
+<div class=logo-mobile>
+<a href=https://sous-chefs.org/><img alt=Logo src=/images/logo.png></a>
+</div>
+<div id=main-menu class=main-menu>
+<ul>
+<li class=menu-item-home>
+<a href=/>
+<span>Home</span>
+</a>
+</li>
+</ul>
+</div>
+<button id=toggle-main-menu-mobile class="hamburger hamburger--slider" type=button>
+<span class=hamburger-box>
+<span class=hamburger-inner></span>
+</span>
+</button>
+</div>
+</div>
+<div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+<div class=row>
+<div class="col-12 col-md-3 mb-3">
+<div class=sidebar>
+<div class=docs-menu>
+<h4>Docs</h4>
+<ul>
+<li class=active>
+<a href=https://sous-chefs.org/docs/auto-releasing-sous-cookbooks/>Auto Releasing Sous-Chefs Cookbooks</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/managing-cookbooks-at-scale/>Managing Cookbooks at Scale</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/cookbook-support/>Cookbook Support</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/sous-board-2019/>Community Leaders 2019</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/community-leaders/>Community Leaders Nominations 2019</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/chef-licensing-change/>Chef License Change</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/year-in-review/>2018 In Review</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/becoming-a-member/>Becoming a Member</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/code-of-conduct/>Code of Conduct</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/contributing/>Contributing to Sous Chefs</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/best-practices/>Cookbook Best Practices</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/forking/>Forking to Sous Chefs</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/departure/>Leaving Sous Chefs</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/licenses/>Licenses</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/membership/>Members</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/meetings/>Sous Chefs Meetings</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/transferring/>Transferring to Sous Chefs</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/board-nominations/>Board Nominations</a>
+</li>
+<li>
+<a href=https://sous-chefs.org/docs/chefconf-2017/>Chef Conf 2017 </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-9">
+<h1 class=title>Auto Releasing Sous-Chefs Cookbooks</h1>
+<div class=content>
+<p><a href=http://sous-chefs.org/>Sous-Chefs</a> is a <a href=https://opencollective.com/sous-chefs>community funded</a> organisation and we like to think of ourselves as a home for unloved great cookbooks. We are also a place where these cookbooks will always get maintained moving forward.</p>
+<p>While these cookbooks are great, when we typically take over management of the cookbook repos they are not in the best of states, and there is significant work to bring them up to our standards.</p>
+<p>We also have all our existing cookbooks (of which there are over 70) and as our standards change, we need to deploy these changes across all of our repositories.</p>
+<h2 id=enter-automation>Enter Automation</h2>
+<p>Earlier in the year we build the <a href=https://sous-chefs.org/docs/managing-cookbooks-at-scale/>Xorimabot backend suite</a></p>
+<p>We now have cookbooks which are constantly getting updated but moved onto the next problem, releasing these is a manual process which takes time from our various contributors (Which normally is <a href=https://github.com/Ramereth>Ramereth</a>).</p>
+<p>Here we truly believe all members of the community should be able to release cookbooks as long as the normal checks (CI, Review) are passed so we did what any DevOps team would do, we built automation.</p>
+<h3 id=architecture>Architecture</h3>
+<p>We started to partition the problem into smaller parts, below you can see the architecture we came up with in the end.
+These applications currently run on Kubernetes, the aim is to migrate them to AWS Lambda simply due to the costs of running this solution. If you would like to aid us with covering the costs of sous-chefs donations would be welcome in our <a href=https://opencollective.com/sous-chefs>Open Collective</a></p>
+<p><img src=/images/automation-architecture.png alt="Sous-Chefs auto release architecture"></p>
+<p>In this architecture we have applications that cover the various problems we foresaw, these are covered in more detail below.
+These applications uses github`s webhooks and APIs to run the applications automatically, we also enforce <a href=https://docs.github.com/en/free-pro-team@latest/developers/webhooks-and-events/securing-your-webhooks>HMAC secrets</a> for additional security</p>
+<h2 id=label-validator>Label Validator</h2>
+<p><a href=https://github.com/Xorima/labelvalidator>Label Validator</a> is designed to ensure that we have a single <code>Release:</code> label on the pull request. The allowed labels are:</p>
+<ul>
+<li>Release: Major</li>
+<li>Release: Minor</li>
+<li>Release: Patch</li>
+</ul>
+<p>These labels are important as other applications use them later on to determine the level of change we should be doing on the release. The results of this check are published back as a status check against the PR, allowing us to enforce this check must pass in order to proceed.</p>
+<h2 id=changelog-validator>Changelog Validator</h2>
+<p><a href=https://github.com/Xorima/changelog_validator>Changelog Validator</a> is designed to ensure that we have an <code>## Unreleased</code> heading in the changelog. This is where contributors should be putting their change notes. The changes to this file are enforced by <a href=danger.systems/>Danger</a></p>
+<p>The <code>## Unreleased</code> section is used in later compontents (Cookbook Release Creator) to identify where in the changelog we should be updating. The results of this check are published back as a status check against the PR, allowing us to enforce this check must pass in order to proceed.</p>
+<h2 id=metadata-validator>Metadata Validator</h2>
+<p>aka: Cookbook Release Validator</p>
+<p><a href=https://github.com/Xorima/cookbook_release_validator>Metadata Validator</a> is designed to ensure that the version number in the changelog is the same as the default branch. We manage this version with the Cookbook Release Creator application. The reason we check the individual line is because other items in the metadata may be changed during a PR.</p>
+<p>The results of this check are published back as a status check against the PR, allowing us to enforce this check must pass in order to proceed.</p>
+<h2 id=cookbook-release-creator>Cookbook Release Creator</h2>
+<p><a href=https://github.com/Xorima/cookbook_release_creator>Cookbook Release Creator</a> runs when a pull request is merged into the default branch. It then does a number of automated items for us:</p>
+<ul>
+<li>Set the new <code>metadata.rb</code> version based on the <code>Release: Major|Minor|Patch</code> label.</li>
+<li>Updates the Changelog with a release version heading based on the same label.</li>
+<li>Creates a <a href=https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-releases-in-a-repository>Github Release</a> on the repository, this will allow users to follow releases in Github for cookbooks they care about
+<ul>
+<li>A link to the release is also put as a comment on the merged PR</li>
+</ul>
+</li>
+<li>Creates a <a href=https://docs.github.com/en/free-pro-team@latest/rest/reference/repos#deployments>Github Deployment</a> Request via the Github Api
+<ul>
+<li>This deployment holds the release notes we will need for the Slack Notifier later on in the custom Payload attribute</li>
+</ul>
+</li>
+</ul>
+<h2 id=cookbook-supermarket-uploader>Cookbook Supermarket Uploader</h2>
+<p><a href=https://github.com/Xorima/cookbook_supermarket_uploader>Cookbook Supermarket Uploader</a> runs when a deployment is requested. It does the following:</p>
+<ul>
+<li>Checks the Deployment was created by the same user it is running as</li>
+<li>Clones the git code based on the tag which is pushed when a release is created</li>
+<li>Runs a <code>knife supermarket share</code> to upload this to the chef supermarket</li>
+<li>Posts back a sucessful or failed deployment to Github&rsquo;s API</li>
+</ul>
+<h2 id=slack-notifier>Slack Notifier</h2>
+<p><a href=https://github.com/Xorima/deployment_status_slack_notifier>Deployment Status Slack Notifier</a> runs when a <a href=https://docs.github.com/en/free-pro-team@latest/rest/reference/repos#list-deployment-statuses>Deployment Status</a> is updated to Success of Failure. It then route the message to the <a href=https://community-slack.chef.io/>Chef Community Slack</a>. It gets the release notes from the payload of the deployment and posts them to <code>#Sous-Chefs</code> and <code>#Announcements</code></p>
+<h2 id=future-of-the-automation-and-sous-chefs>Future of the Automation and Sous-Chefs</h2>
+<p>These applications are already critical to our management infrastructure, and we have many plans for their future.</p>
+<ul>
+<li>Migrate these applications to AWS Lambda to reduce costs</li>
+<li>Add a notification to the slack discorse</li>
+<li>Create a dashboard, because metrics</li>
+</ul>
+<p>As always we are a group of volunteers and our doors are always open. If you would like to help with any of our projects or want to get involved in some of the cookbooks we help to maintain, you can find us on the <a href=https://community-slack.chef.io/>Chef Community Slack</a> the the <code>#sous-chefs</code> channel.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=sub-footer>
+<div class=container>
+<div class=row>
+<div class=col-12>
+<div class=sub-footer-inner>
+<ul>
+<li class=zerostatic><a href=https://www.zerostatic.io>www.zerostatic.io</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type=text/javascript src=/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130660686-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-130660686-1')</script>
+</body>
+</html>
