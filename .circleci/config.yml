@@ -1,32 +1,31 @@
 version: 2.1
 
 workflows:
-  lint:
+  test-build:
     jobs:
-    - website/generate:
-        filters:
-          branches:
-            ignore:
-              - main
-              - gh-pages
+      - website/generate:
+          filters: { branches: { ignore: [main, gh-pages] } }
+      - website/lint:
+          filters: { branches: { ignore: [main, gh-pages] } }
+
   deploy:
     jobs:
-    - website/generate:
-        filters: { branches: { only: [main] } }
-    - website/deploy:
-        filters: { branches: { only: [main] } }
-        requires: [website/generate]
-        context: website
-        user_name: Kitchen Porter
-        user_email: board@sous-chefs.org
-        github_organisation: sous-chefs
-        repository: website
+      - website/generate:
+          filters: { branches: { only: [main] } }
+      - website/deploy:
+          filters: { branches: { only: [main] } }
+          requires: [website/generate]
+          context: website
+          user_name: Kitchen Porter
+          user_email: board@sous-chefs.org
+          github_organisation: sous-chefs
+          repository: website
 
 orbs:
   website:
     executors:
       hugo:
-        docker: [image: cibuilds/hugo:0.88.1]
+        docker: [image: cibuilds/hugo:0.89]
     jobs:
       generate:
         executor: hugo
@@ -91,6 +90,7 @@ orbs:
               name: deploy site
               command: |
                 cd public
+                git config --global init.defaultBranch gh-pages
                 git init
                 git config user.name "<< parameters.user_name >>"
                 git config user.email "<<parameters.user_email >>"
@@ -99,4 +99,5 @@ orbs:
                 cp -R ../.circleci .
                 git add .
                 git commit -m "Deploy from CircleCI ${CIRCLE_SHA1}"
-                git push --force --quiet "https://${GITHUB_TOKEN}@github.com/<< parameters.github_organisation >>/<< parameters.repository >>.git" main:gh-pages
+                git remote add origin "https://${GITHUB_TOKEN}@github.com/<< parameters.github_organisation >>/<< parameters.repository >>.git"
+                git push origin gh-pages --force
