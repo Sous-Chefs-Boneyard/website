@@ -24,7 +24,6 @@ jobs:
         with:
           hugo-version: '0.89.2'
           extended: true
-          cname: sous-chefs.org
 
       - name: Build
         run: hugo --minify
@@ -35,3 +34,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          cname: sous-chefs.org
