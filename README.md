@@ -1,6 +1,6 @@
 # sous-chefs.org website
 
-[![Build Status](https://img.shields.io/circleci/project/github/sous-chefs/website/main.svg)](https://circleci.com/gh/sous-chefs/website)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ad1af800-e831-4cce-b72b-5d9247bde1c5/deploy-status)](https://app.netlify.com/sites/ecstatic-curie-964426/deploys)
 [![OpenCollective](https://opencollective.com/sous-chefs/backers/badge.svg)](#backers)
 [![OpenCollective](https://opencollective.com/sous-chefs/sponsors/badge.svg)](#sponsors)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)

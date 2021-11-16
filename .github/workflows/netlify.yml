@@ -1,0 +1,15 @@
+# name: 'Deploy to Netlify'
+
+# 'on':
+#   release:
+#     types: [published]
+
+# jobs:
+#   deploy:
+#     name: 'Deploy to Netlify'
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: jsmrcaga/action-netlify-deploy@v1.1.0
+#         with:
+#           NETLIFY_AUTH_TOKEN: ${{ secrets.MY_TOKEN_SECRET }}
+#           NETLIFY_DEPLOY_TO_PROD: true
