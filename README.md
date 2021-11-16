@@ -7,6 +7,8 @@
 
 The website is created using the static site generator, [Hugo](https://gohugo.io/).
 
+The live website is hosted on GitHub pages on the gh-pages branch. Netlify is used to preview changes on branches.
+
 ## Development
 
 1. Install Hugo for your platform according to the [instructions](http://gohugo.io/overview/installing/)
