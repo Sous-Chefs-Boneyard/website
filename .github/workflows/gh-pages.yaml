@@ -5,9 +5,11 @@ name: 'Deploy to GitHub Pages'
   push:
     branches: [main]
 
-jobs :
-  gh-pages:
+jobs:
+  deploy:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -18,6 +20,7 @@ jobs :
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.89.2'
+          extended: true
 
       - name: Build
         run: hugo --minify
@@ -26,5 +29,5 @@ jobs :
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          cname: sous-chefs.org
