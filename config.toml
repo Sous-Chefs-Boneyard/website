@@ -4,4 +4,4 @@ title = "Sous Chefs"
 publishDir = "public"
 enableRobotsTXT = true
 enableGitInfo = true
-theme = ["onweru/compose"]
+theme = ["compose"]
