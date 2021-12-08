@@ -2,39 +2,6 @@ baseURL = "https://sous-chefs.org/"
 languageCode = "en-us"
 title = "Sous Chefs"
 publishDir = "public"
-themesDir = "themes"
-theme = "hugo-whisper-theme"
-
-[params]
-  homepage_button_link = '/docs'
-  homepage_button_text = 'Read The Docs'
-  google_analytics_id = "UA-130660686-1"
-  # mainSections = ["minutes","docs"]
-
-[params.homepage_meta_tags]
-    meta_description = "Collaborative community of Chef practitioners dedicated to improving the quality of cookbooks"
-    meta_og_title = "Sous-Chefs"
-    meta_og_type = "website"
-    meta_og_url = "https://sous-chefs.org"
-    meta_twitter_site = "@souschefsorg"
-    meta_twitter_creator = "@souschefsorg"
-
-[params.logo]
-    mobile = "/images/logo.png"
-    standard  = "/images/logo.png"
-
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-
-# [[menu.main]]
-#     name = "Docs"
-#     url = "/docs/"
-#     weight = 2
-
-# [[menu.main]]
-#     name = "Minutes"
-#     url = "/minutes/"
-#     weight = 3
-
+enableRobotsTXT = true
+enableGitInfo = true
+theme = ["compose"]

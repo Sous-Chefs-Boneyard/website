@@ -1,3 +1,6 @@
 [submodule "themes/hugo-whisper-theme"]
 	path = themes/hugo-whisper-theme
 	url = https://github.com/zerostaticthemes/hugo-whisper-theme
+[submodule "themes/compose"]
+	path = themes/compose
+	url = https://github.com/onweru/compose
