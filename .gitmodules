@@ -3,4 +3,4 @@
 	url = https://github.com/zerostaticthemes/hugo-whisper-theme
 [submodule "themes/compose"]
 	path = themes/compose
-	url = git@github.com:onweru/compose.git
+	url = https://github.com/onweru/compose
