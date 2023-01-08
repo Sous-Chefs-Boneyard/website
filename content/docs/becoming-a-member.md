@@ -5,16 +5,22 @@ date: 2018-11-28T15:14:39+10:00
 
 Join us on the [Chef community slack](https://chefcommunity.slack.com/messages/sous-chefs/), and say hi!
 
-- Go to: [`modules/org_membership/main.tf`](https://github.com/sous-chefs/terraform-github-org/blob/main/modules/org_membership/main.tf)
+- Go to: [`terraform-github-membership/terraform.tfvars.json`](https://github.com/sous-chefs/terraform-github-membership/blob/main/terraform.tfvars.json) in the terraform-group-membership repo.
 
 - Click the pencil to "Edit this file"
 
-- To the file, add a resource for your github user. If your username was `dmr`, you would add:
+- To the file, add a line to the bottom of the `maintainers` section for your github user. If your username was `dmr`, you would add:
 
-```tf
-resource "github_membership" "dmr" {
-  username = "dmr"
-  role     = "member"
+```json
+{
+  "board": [
+    "..."
+  ],
+  "bots": [],
+  "maintainers": [
+    "...",
+    "dmr"
+  ]
 }
 ```
 
