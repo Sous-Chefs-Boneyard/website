@@ -159,10 +159,10 @@ What does this mean for us For us, this announcement does not have any major cha
 <div class="summary mb-2">
 <h2 class=title-summary><a href=https://sous-chefs.org/docs/becoming-a-member/>Becoming a Member</a></h2>
 <p>Join us on the Chef community slack, and say hi!
-Go to: modules/org_membership/main.tf
+Go to: terraform-github-membership/terraform.tfvars.json in the terraform-group-membership repo.
 Click the pencil to &ldquo;Edit this file&rdquo;
-To the file, add a resource for your github user. If your username was dmr, you would add:
-resource "github_membership" "dmr" { username = "dmr" role = "member" } Write a commit message. For the above, a reasonable message might be org_membership: add dmr</p>
+To the file, add a line to the bottom of the maintainers section for your github user. If your username was dmr, you would add:
+{ "board": [ "..." ], "bots": [], "maintainers": [ "...", "dmr" ] } Write a commit message.</p>
 </div>
 <div class="summary mb-2">
 <h2 class=title-summary><a href=https://sous-chefs.org/docs/code-of-conduct/>Code of Conduct</a></h2>

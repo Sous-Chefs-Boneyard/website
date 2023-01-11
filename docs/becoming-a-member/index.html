@@ -116,18 +116,24 @@
 <p>Join us on the <a href=https://chefcommunity.slack.com/messages/sous-chefs/>Chef community slack</a>, and say hi!</p>
 <ul>
 <li>
-<p>Go to: <a href=https://github.com/sous-chefs/terraform-github-org/blob/main/modules/org_membership/main.tf><code>modules/org_membership/main.tf</code></a></p>
+<p>Go to: <a href=https://github.com/sous-chefs/terraform-github-membership/blob/main/terraform.tfvars.json><code>terraform-github-membership/terraform.tfvars.json</code></a> in the terraform-group-membership repo.</p>
 </li>
 <li>
 <p>Click the pencil to &ldquo;Edit this file&rdquo;</p>
 </li>
 <li>
-<p>To the file, add a resource for your github user. If your username was <code>dmr</code>, you would add:</p>
+<p>To the file, add a line to the bottom of the <code>maintainers</code> section for your github user. If your username was <code>dmr</code>, you would add:</p>
 </li>
 </ul>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-tf data-lang=tf><span style=color:#66d9ef>resource</span> <span style=color:#e6db74>&#34;github_membership&#34;</span> <span style=color:#e6db74>&#34;dmr&#34;</span> {
-  <span style=color:#a6e22e>username</span> = <span style=color:#e6db74>&#34;dmr&#34;</span>
-  <span style=color:#a6e22e>role</span>     = <span style=color:#e6db74>&#34;member&#34;</span>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json>{
+  <span style=color:#f92672>&#34;board&#34;</span>: [
+    <span style=color:#e6db74>&#34;...&#34;</span>
+  ],
+  <span style=color:#f92672>&#34;bots&#34;</span>: [],
+  <span style=color:#f92672>&#34;maintainers&#34;</span>: [
+    <span style=color:#e6db74>&#34;...&#34;</span>,
+    <span style=color:#e6db74>&#34;dmr&#34;</span>
+  ]
 }
 </code></pre></div><ul>
 <li>
